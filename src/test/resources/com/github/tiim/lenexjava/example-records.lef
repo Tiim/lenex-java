@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LENEX version="3.0">
+  <CONSTRUCTOR name="swimrankings.net" version="Build 5268">
+    <CONTACT name="GeoLogix AG" street="Muristrasse 60" city="Bern" zip="3006" country="CH" phone="+41 31 356 80 56" fax="+41 31 356 80 81" email="info@splash-software.ch" internet="http://www.splash-software.ch" />
+  </CONSTRUCTOR>
+  <RECORDLISTS>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="M" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="18" agemin="17" />
+      <RECORDS>
+        <RECORD swimtime="00:00:51.35">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10610" birthdate="1991-07-16" firstname="Erik" gender="M" lastname="Van Dooren" nation="SUI">
+            <CLUB clubid="501" code="GEN" name="Genève Natation 1885" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:00:54.59">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11235" birthdate="1991-06-20" firstname="Alexandre" gender="M" lastname="Liess" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:00:59.88">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="9643" birthdate="1991-08-17" firstname="Duncan" gender="M" lastname="Jacot-Descombes" nation="SUI">
+            <CLUB clubid="521" code="RFN" name="Red-Fish Neuchâtel" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:05.14">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13102" birthdate="1992-07-03" firstname="Yannick" gender="M" lastname="Käser" nation="SUI">
+            <CLUB clubid="667" code="SVB" name="Schwimmverein beider Basel" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:53.07">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:00:56.03" />
+            <SPLIT distance="200" swimtime="00:01:53.07" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11235" birthdate="1991-06-20" firstname="Alexandre" gender="M" lastname="Liess" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:00.74">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:00:57.17" />
+            <SPLIT distance="200" swimtime="00:02:00.74" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11235" birthdate="1991-06-20" firstname="Alexandre" gender="M" lastname="Liess" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:06.33">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:00.10" />
+            <SPLIT distance="200" swimtime="00:02:06.33" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11235" birthdate="1991-06-20" firstname="Alexandre" gender="M" lastname="Liess" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:11.46">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.38" />
+            <SPLIT distance="100" swimtime="00:01:03.42" />
+            <SPLIT distance="150" swimtime="00:01:37.91" />
+            <SPLIT distance="200" swimtime="00:02:11.46" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="8375" birthdate="1989-10-15" firstname="Donald" gender="M" lastname="Cameron" nation="SUI">
+            <CLUB clubid="550" code="SCEG" name="Schwimmclub Eichholz Gerlafingen" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:14.64">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:06.28" />
+            <SPLIT distance="200" swimtime="00:02:14.64" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13102" birthdate="1992-07-03" firstname="Yannick" gender="M" lastname="Käser" nation="SUI">
+            <CLUB clubid="667" code="SVB" name="Schwimmverein beider Basel" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:00.26">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:00:57.45" />
+            <SPLIT distance="200" swimtime="00:01:58.50" />
+            <SPLIT distance="300" swimtime="00:03:00.27" />
+            <SPLIT distance="400" swimtime="00:04:00.26" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11235" birthdate="1991-06-20" firstname="Alexandre" gender="M" lastname="Liess" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:34.19">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:00:59.58" />
+            <SPLIT distance="200" swimtime="00:02:11.66" />
+            <SPLIT distance="300" swimtime="00:03:33.24" />
+            <SPLIT distance="400" swimtime="00:04:34.19" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11235" birthdate="1991-06-20" firstname="Alexandre" gender="M" lastname="Liess" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:16:13.12">
+          <SWIMSTYLE distance="1500" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:02.21" />
+            <SPLIT distance="200" swimtime="00:02:06.42" />
+            <SPLIT distance="300" swimtime="00:03:11.10" />
+            <SPLIT distance="400" swimtime="00:04:16.43" />
+            <SPLIT distance="500" swimtime="00:05:21.45" />
+            <SPLIT distance="600" swimtime="00:06:26.69" />
+            <SPLIT distance="700" swimtime="00:07:31.78" />
+            <SPLIT distance="800" swimtime="00:08:37.55" />
+            <SPLIT distance="900" swimtime="00:09:43.11" />
+            <SPLIT distance="1000" swimtime="00:10:48.28" />
+            <SPLIT distance="1100" swimtime="00:11:53.90" />
+            <SPLIT distance="1200" swimtime="00:12:59.21" />
+            <SPLIT distance="1300" swimtime="00:14:04.36" />
+            <SPLIT distance="1400" swimtime="00:15:09.67" />
+            <SPLIT distance="1500" swimtime="00:16:13.12" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10854" birthdate="1991-11-10" firstname="Jovan" gender="M" lastname="Mitrovic" nation="SUI">
+            <CLUB clubid="12874657" code="AST" name="A-Club Swimming Team Savosa" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="M" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="16" agemin="16" />
+      <RECORDS>
+        <RECORD swimtime="00:00:53.83">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:25.82" />
+            <SPLIT distance="100" swimtime="00:00:53.83" />
+          </SPLITS>
+          <MEETINFO meetinfoid="4184949" city="Lancy" date="2005-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="7093" birthdate="1989-04-22" firstname="Duncan" gender="M" lastname="Furrer" nation="SUI">
+            <CLUB clubid="514" code="LN" name="Lausanne Natation" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:00:59.33">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <MEETINFO meetinfoid="2423" city="Langenthal" date="2002-07-20" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="7148" birthdate="1986-05-29" firstname="Christian" gender="M" lastname="Reber" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:01.23">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <MEETINFO meetinfoid="2012" city="Chur" date="2000-07-23" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4862" birthdate="1984-02-26" firstname="Jonathan" gender="M" lastname="Massacand" nation="SUI">
+            <CLUB clubid="514" code="LN" name="Lausanne Natation" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:08.12">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:31.98" />
+            <SPLIT distance="100" swimtime="00:01:08.12" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-11" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13102" birthdate="1992-07-03" firstname="Yannick" gender="M" lastname="Käser" nation="SUI">
+            <CLUB clubid="667" code="SVB" name="Schwimmverein beider Basel" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:56.51">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:27.43" />
+            <SPLIT distance="100" swimtime="00:00:56.72" />
+            <SPLIT distance="150" swimtime="00:01:26.51" />
+            <SPLIT distance="200" swimtime="00:01:56.51" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-12" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="8852" birthdate="1992-03-10" firstname="Ivan" gender="M" lastname="Pagani" nation="SUI">
+            <CLUB clubid="768" code="LUG" name="Lugano Nuoto Pallanuoto Sincro" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:10.55">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:01.96" />
+            <SPLIT distance="200" swimtime="00:02:10.55" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10401" birthdate="1993-05-16" firstname="Moreno" gender="M" lastname="Colombo" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:10.83">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:00.65" />
+            <SPLIT distance="200" swimtime="00:02:10.83" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13129" birthdate="1993-01-08" firstname="Elijah" gender="M" lastname="Stolz" nation="SUI">
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:13.40">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.62" />
+            <SPLIT distance="100" swimtime="00:01:04.40" />
+            <SPLIT distance="150" swimtime="00:01:38.85" />
+            <SPLIT distance="200" swimtime="00:02:13.40" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="9856" birthdate="1992-01-02" firstname="Michael" gender="M" lastname="Müller" nation="SUI">
+            <CLUB clubid="601" code="BAAR" name="Schwimmverein Baar" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:27.82">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:33.63" />
+            <SPLIT distance="100" swimtime="00:01:12.00" />
+            <SPLIT distance="150" swimtime="00:01:50.35" />
+            <SPLIT distance="200" swimtime="00:02:27.82" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-12" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14390" birthdate="1992-09-24" firstname="Yves" gender="M" lastname="Mauron" nation="SUI">
+            <CLUB clubid="689" code="BIEL" name="Swim Team Biel-Bienne" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:05.86">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:00:56.27" />
+            <SPLIT distance="200" swimtime="00:01:58.66" />
+            <SPLIT distance="300" swimtime="00:03:02.41" />
+            <SPLIT distance="400" swimtime="00:04:05.86" />
+          </SPLITS>
+          <MEETINFO meetinfoid="4857622" city="Geneva" date="1999-07-23" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="807" birthdate="1983-08-30" firstname="Gerry" gender="M" lastname="Strasser" nation="SUI">
+            <CLUB clubid="610" code="SCF" name="Schwimmclub Frauenfeld" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:47.41">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.80" />
+            <SPLIT distance="100" swimtime="00:01:05.54" />
+            <SPLIT distance="150" swimtime="00:01:43.05" />
+            <SPLIT distance="200" swimtime="00:02:19.00" />
+            <SPLIT distance="250" swimtime="00:02:59.56" />
+            <SPLIT distance="300" swimtime="00:03:41.17" />
+            <SPLIT distance="350" swimtime="00:04:14.85" />
+            <SPLIT distance="400" swimtime="00:04:47.41" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10866" birthdate="1992-01-20" firstname="Mario" gender="M" lastname="Filipovic" nation="CRO">
+            <CLUB clubid="12874657" code="AST" name="A-Club Swimming Team Savosa" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:16:33.43">
+          <SWIMSTYLE distance="1500" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:01.76" />
+            <SPLIT distance="200" swimtime="00:02:09.04" />
+            <SPLIT distance="300" swimtime="00:03:16.61" />
+            <SPLIT distance="400" swimtime="00:04:24.06" />
+            <SPLIT distance="500" swimtime="00:05:30.63" />
+            <SPLIT distance="600" swimtime="00:06:36.24" />
+            <SPLIT distance="700" swimtime="00:07:42.50" />
+            <SPLIT distance="800" swimtime="00:08:49.08" />
+            <SPLIT distance="900" swimtime="00:09:55.70" />
+            <SPLIT distance="1000" swimtime="00:11:02.24" />
+            <SPLIT distance="1100" swimtime="00:12:08.76" />
+            <SPLIT distance="1200" swimtime="00:13:15.50" />
+            <SPLIT distance="1300" swimtime="00:14:21.97" />
+            <SPLIT distance="1400" swimtime="00:15:28.39" />
+            <SPLIT distance="1500" swimtime="00:16:33.43" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10811" birthdate="1993-01-03" firstname="Christoph" gender="M" lastname="Meier" nation="LIE">
+            <CLUB clubid="639" code="SCUL" name="Schwimm-Club Unterland Eschen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="M" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="14" agemin="14" />
+      <RECORDS>
+        <RECORD swimtime="00:00:54.29">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14174" birthdate="1995-01-16" firstname="This" gender="M" lastname="Oderbolz" nation="SUI">
+            <CLUB clubid="595" code="LIMM" name="Limmat Sharks Zürich" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:00:59.71">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14659" birthdate="1995-03-08" firstname="Alexandre" gender="M" lastname="Haldemann" nation="SUI">
+            <CLUB clubid="511" code="NSG" name="Natation Sportive Genève" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:04.31">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:31.82" />
+            <SPLIT distance="100" swimtime="00:01:04.31" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13129" birthdate="1993-01-08" firstname="Elijah" gender="M" lastname="Stolz" nation="SUI">
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:08.96">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <MEETINFO meetinfoid="347" city="Basel" date="1994-07-29" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="1199" birthdate="1980-02-18" firstname="Remo" gender="M" lastname="Lütolf" nation="SUI">
+            <CLUB clubid="637" code="WIDN" name="Schwimmklub Widnau" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:02.87">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:00:59.03" />
+            <SPLIT distance="200" swimtime="00:02:02.87" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14174" birthdate="1995-01-16" firstname="This" gender="M" lastname="Oderbolz" nation="SUI">
+            <CLUB clubid="595" code="LIMM" name="Limmat Sharks Zürich" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:12.77">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:03.75" />
+            <SPLIT distance="200" swimtime="00:02:12.77" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14088" birthdate="1995-05-14" firstname="Fabio" gender="M" lastname="Ciccone" nation="SUI">
+            <CLUB clubid="570" code="AARE" name="Schwimmclub Aarefisch" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:16.69">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:04.43" />
+            <SPLIT distance="200" swimtime="00:02:16.69" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14174" birthdate="1995-01-16" firstname="This" gender="M" lastname="Oderbolz" nation="SUI">
+            <CLUB clubid="595" code="LIMM" name="Limmat Sharks Zürich" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:18.39">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:33.28" />
+            <SPLIT distance="100" swimtime="00:01:08.81" />
+            <SPLIT distance="150" swimtime="00:01:44.95" />
+            <SPLIT distance="200" swimtime="00:02:18.39" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13129" birthdate="1993-01-08" firstname="Elijah" gender="M" lastname="Stolz" nation="SUI">
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:33.87">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:12.69" />
+            <SPLIT distance="200" swimtime="00:02:33.87" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2640" city="Vevey" date="2003-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="8052" birthdate="1989-01-07" firstname="Adrien" gender="M" lastname="Toscan" nation="SUI">
+            <CLUB clubid="511" code="NSG" name="Natation Sportive Genève" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:22.56">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="5937738" city="Geneva" date="1990-07-27" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="757" birthdate="1976-01-01" firstname="Stefano" gender="M" lastname="Giuliani" nation="SUI">
+            <CLUB clubid="650" code="SNB" name="Società Nuoto Bellinzona" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:09:08.98">
+          <SWIMSTYLE distance="800" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:02.59" />
+            <SPLIT distance="200" swimtime="00:02:10.93" />
+            <SPLIT distance="300" swimtime="00:03:20.42" />
+            <SPLIT distance="400" swimtime="00:04:30.59" />
+            <SPLIT distance="500" swimtime="00:05:40.86" />
+            <SPLIT distance="600" swimtime="00:06:51.15" />
+            <SPLIT distance="700" swimtime="00:08:01.19" />
+            <SPLIT distance="800" swimtime="00:09:08.98" />
+          </SPLITS>
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="8852" birthdate="1992-03-10" firstname="Ivan" gender="M" lastname="Pagani" nation="SUI">
+            <CLUB clubid="659" code="NUM" name="Mendrisiotto-Nuoto" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="M" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="15" agemin="15" />
+      <RECORDS>
+        <RECORD swimtime="00:00:54.53">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="2423" city="Langenthal" date="2002-07-21" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10928" birthdate="1987-01-05" firstname="Gregory" gender="M" lastname="Widmer" nation="SUI">
+            <CLUB clubid="578" code="BREM" name="Schwimmclub Region Bremgarten" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:00:59.18">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <MEETINFO meetinfoid="5937760" city="Geneva" date="1978-08-26" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="67" birthdate="1963-02-16" firstname="Dano" gender="M" lastname="Halsall" nation="SUI">
+            <CLUB clubid="501" code="GEN" name="Genève Natation 1885" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:01.07">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:29.75" />
+            <SPLIT distance="100" swimtime="00:01:01.07" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-11" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13129" birthdate="1993-01-08" firstname="Elijah" gender="M" lastname="Stolz" nation="SUI">
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:08.55">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:31.85" />
+            <SPLIT distance="100" swimtime="00:01:08.55" />
+          </SPLITS>
+          <MEETINFO meetinfoid="4184949" city="Lancy" date="2005-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="9489" birthdate="1990-02-14" firstname="Raphaël" gender="M" lastname="Duran" nation="SUI">
+            <CLUB clubid="512" code="LYN" name="Lancy-Natation" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:00.07">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:00:58.73" />
+            <SPLIT distance="200" swimtime="00:02:00.07" />
+          </SPLITS>
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10610" birthdate="1991-07-16" firstname="Erik" gender="M" lastname="Van Dooren" nation="SUI">
+            <CLUB clubid="501" code="GEN" name="Genève Natation 1885" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:10.14">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.68" />
+            <SPLIT distance="100" swimtime="00:01:03.35" />
+            <SPLIT distance="150" swimtime="00:01:37.04" />
+            <SPLIT distance="200" swimtime="00:02:10.14" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13129" birthdate="1993-01-08" firstname="Elijah" gender="M" lastname="Stolz" nation="SUI">
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:12.89">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:02.41" />
+            <SPLIT distance="200" swimtime="00:02:12.89" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11504" birthdate="1994-04-07" firstname="Ivan" gender="M" lastname="Mitrovic" nation="SUI">
+            <CLUB clubid="12874657" code="AST" name="A-Club Swimming Team Savosa" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:13.17">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:29.52" />
+            <SPLIT distance="100" swimtime="00:01:02.28" />
+            <SPLIT distance="150" swimtime="00:01:37.44" />
+            <SPLIT distance="200" swimtime="00:02:13.17" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2197" city="Geneva" date="2001-07-29" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="7148" birthdate="1986-05-29" firstname="Christian" gender="M" lastname="Reber" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:27.28">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:11.29" />
+            <SPLIT distance="200" swimtime="00:02:27.28" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13775" birthdate="1994-07-05" firstname="Valerio" gender="M" lastname="Romagnoli" nation="SUI">
+            <CLUB clubid="585" code="MEIL" name="Schwimmclub Meilen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:15.67">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="1530" city="Lancy" date="1998-07-24" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="807" birthdate="1983-08-30" firstname="Gerry" gender="M" lastname="Strasser" nation="SUI">
+            <CLUB clubid="610" code="SCF" name="Schwimmclub Frauenfeld" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:43.80">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:04.09" />
+            <SPLIT distance="200" swimtime="00:02:17.12" />
+            <SPLIT distance="300" swimtime="00:03:36.62" />
+            <SPLIT distance="400" swimtime="00:04:43.80" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11504" birthdate="1994-04-07" firstname="Ivan" gender="M" lastname="Mitrovic" nation="SUI">
+            <CLUB clubid="12874657" code="AST" name="A-Club Swimming Team Savosa" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:17:02.30">
+          <SWIMSTYLE distance="1500" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:03.86" />
+            <SPLIT distance="200" swimtime="00:02:12.04" />
+            <SPLIT distance="300" swimtime="00:03:20.38" />
+            <SPLIT distance="400" swimtime="00:04:28.45" />
+            <SPLIT distance="500" swimtime="00:05:35.83" />
+            <SPLIT distance="600" swimtime="00:06:44.23" />
+            <SPLIT distance="700" swimtime="00:07:52.38" />
+            <SPLIT distance="800" swimtime="00:09:00.36" />
+            <SPLIT distance="900" swimtime="00:10:08.36" />
+            <SPLIT distance="1000" swimtime="00:11:16.45" />
+            <SPLIT distance="1100" swimtime="00:12:26.08" />
+            <SPLIT distance="1200" swimtime="00:13:35.55" />
+            <SPLIT distance="1300" swimtime="00:14:45.59" />
+            <SPLIT distance="1400" swimtime="00:15:55.49" />
+            <SPLIT distance="1500" swimtime="00:17:02.30" />
+          </SPLITS>
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10610" birthdate="1991-07-16" firstname="Erik" gender="M" lastname="Van Dooren" nation="SUI">
+            <CLUB clubid="501" code="GEN" name="Genève Natation 1885" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="F" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="18" agemin="17" />
+      <RECORDS>
+        <RECORD swimtime="00:00:57.80">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:28.32" />
+            <SPLIT distance="100" swimtime="00:00:57.80" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="6368" birthdate="1989-07-31" firstname="Laura" gender="F" lastname="Noccioli" nation="SUI">
+            <CLUB clubid="651" code="BISS" name="Pallanuoto Bissone" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:02.59">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:29.82" />
+            <SPLIT distance="100" swimtime="00:01:02.59" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-14" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="7484" birthdate="1989-01-23" firstname="Martina" gender="F" lastname="van Berkel" nation="SUI">
+            <CLUB clubid="600" code="WINT" name="Schwimmclub Winterthur" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:06.65">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11330" birthdate="1991-08-14" firstname="Anouk" gender="F" lastname="Hellinga" nation="NED">
+            <CLUB clubid="551" code="SVE" name="Schwimmverein Emmen" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:12.33">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:34.10" />
+            <SPLIT distance="100" swimtime="00:01:12.33" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10270" birthdate="1990-03-20" firstname="Patrizia" gender="F" lastname="Humplik" nation="SUI">
+            <CLUB clubid="544" code="SKBE" name="Schwimm-Klub Bern" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:06.65">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.05" />
+            <SPLIT distance="100" swimtime="00:01:01.77" />
+            <SPLIT distance="150" swimtime="00:01:34.18" />
+            <SPLIT distance="200" swimtime="00:02:06.65" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-14" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="1543511" birthdate="1989-07-18" firstname="Maria" gender="F" lastname="Ugolkova" nation="RUS">
+            <CLUB clubid="768" code="LUG" name="Lugano Nuoto Pallanuoto Sincro" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:15.38">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:31.12" />
+            <SPLIT distance="100" swimtime="00:01:06.23" />
+            <SPLIT distance="150" swimtime="00:01:40.62" />
+            <SPLIT distance="200" swimtime="00:02:15.38" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="7484" birthdate="1989-01-23" firstname="Martina" gender="F" lastname="van Berkel" nation="SUI">
+            <CLUB clubid="600" code="WINT" name="Schwimmclub Winterthur" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:22.21">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:08.39" />
+            <SPLIT distance="200" swimtime="00:02:22.21" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11330" birthdate="1991-08-14" firstname="Anouk" gender="F" lastname="Hellinga" nation="NED">
+            <CLUB clubid="551" code="SVE" name="Schwimmverein Emmen" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:25.09">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.73" />
+            <SPLIT distance="100" swimtime="00:01:10.05" />
+            <SPLIT distance="150" swimtime="00:01:50.82" />
+            <SPLIT distance="200" swimtime="00:02:25.09" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-14" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10270" birthdate="1990-03-20" firstname="Patrizia" gender="F" lastname="Humplik" nation="SUI">
+            <CLUB clubid="544" code="SKBE" name="Schwimm-Klub Bern" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:40.39">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:34.75" />
+            <SPLIT distance="100" swimtime="00:01:15.26" />
+            <SPLIT distance="150" swimtime="00:01:57.44" />
+            <SPLIT distance="200" swimtime="00:02:40.39" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-12" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10270" birthdate="1990-03-20" firstname="Patrizia" gender="F" lastname="Humplik" nation="SUI">
+            <CLUB clubid="544" code="SKBE" name="Schwimm-Klub Bern" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:24.15">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:02.30" />
+            <SPLIT distance="200" swimtime="00:02:09.09" />
+            <SPLIT distance="300" swimtime="00:03:16.97" />
+            <SPLIT distance="400" swimtime="00:04:24.15" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11941" birthdate="1991-10-04" firstname="Cherelle" gender="F" lastname="Oestringer" nation="SUI">
+            <CLUB clubid="689" code="BIEL" name="Swim Team Biel-Bienne" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:05:02.27">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:31.05" />
+            <SPLIT distance="100" swimtime="00:01:06.30" />
+            <SPLIT distance="150" swimtime="00:01:44.33" />
+            <SPLIT distance="200" swimtime="00:02:20.97" />
+            <SPLIT distance="250" swimtime="00:03:07.57" />
+            <SPLIT distance="300" swimtime="00:03:53.70" />
+            <SPLIT distance="350" swimtime="00:04:28.83" />
+            <SPLIT distance="400" swimtime="00:05:02.27" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="7484" birthdate="1989-01-23" firstname="Martina" gender="F" lastname="van Berkel" nation="SUI">
+            <CLUB clubid="600" code="WINT" name="Schwimmclub Winterthur" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:09:12.76">
+          <SWIMSTYLE distance="800" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:02.60" />
+            <SPLIT distance="200" swimtime="00:02:10.68" />
+            <SPLIT distance="300" swimtime="00:03:19.93" />
+            <SPLIT distance="400" swimtime="00:04:30.28" />
+            <SPLIT distance="500" swimtime="00:05:40.61" />
+            <SPLIT distance="600" swimtime="00:06:51.47" />
+            <SPLIT distance="700" swimtime="00:08:02.17" />
+            <SPLIT distance="800" swimtime="00:09:12.76" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11941" birthdate="1991-10-04" firstname="Cherelle" gender="F" lastname="Oestringer" nation="SUI">
+            <CLUB clubid="689" code="BIEL" name="Swim Team Biel-Bienne" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="F" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="16" agemin="16" />
+      <RECORDS>
+        <RECORD swimtime="00:00:57.99">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:27.52" />
+            <SPLIT distance="100" swimtime="00:00:57.99" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2197" city="Geneva" date="2001-07-29" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="1701" birthdate="1985-03-03" firstname="Marjorie" gender="F" lastname="Sagne" nation="SUI">
+            <CLUB clubid="526" code="RN" name="Renens-Natation" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:02.57">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="12053" birthdate="1993-03-06" firstname="Danielle" gender="F" lastname="Villars" nation="SUI">
+            <CLUB clubid="595" code="LIMM" name="Limmat Sharks Zürich" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:07.28">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:32.33" />
+            <SPLIT distance="100" swimtime="00:01:07.28" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-12" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11330" birthdate="1991-08-14" firstname="Anouk" gender="F" lastname="Hellinga" nation="NED">
+            <CLUB clubid="551" code="SVE" name="Schwimmverein Emmen" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:12.26">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-14" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10270" birthdate="1990-03-20" firstname="Patrizia" gender="F" lastname="Humplik" nation="SUI">
+            <CLUB clubid="544" code="SKBE" name="Schwimm-Klub Bern" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:06.27">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:01.27" />
+            <SPLIT distance="200" swimtime="00:02:06.27" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2012" city="Chur" date="2000-07-23" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4656" birthdate="1984-05-29" firstname="Hanna" gender="F" lastname="Miluska" nation="SUI">
+            <CLUB clubid="667" code="SVB" name="Schwimmverein beider Basel" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:21.86">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:08.11" />
+            <SPLIT distance="200" swimtime="00:02:21.86" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11890" birthdate="1993-02-27" firstname="Julia" gender="F" lastname="Hassler" nation="LIE">
+            <CLUB clubid="639" code="SCUL" name="Schwimm-Club Unterland Eschen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:23.96">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.44" />
+            <SPLIT distance="100" swimtime="00:01:07.52" />
+            <SPLIT distance="150" swimtime="00:01:50.20" />
+            <SPLIT distance="200" swimtime="00:02:23.96" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-10" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10547" birthdate="1992-01-04" firstname="Anaïs" gender="F" lastname="Desplanches" nation="SUI">
+            <CLUB clubid="501" code="GEN" name="Genève Natation 1885" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:25.17">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:33.73" />
+            <SPLIT distance="100" swimtime="00:01:10.69" />
+            <SPLIT distance="150" swimtime="00:01:47.70" />
+            <SPLIT distance="200" swimtime="00:02:25.17" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11330" birthdate="1991-08-14" firstname="Anouk" gender="F" lastname="Hellinga" nation="NED">
+            <CLUB clubid="551" code="SVE" name="Schwimmverein Emmen" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:41.32">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:17.81" />
+            <SPLIT distance="200" swimtime="00:02:41.32" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2423" city="Langenthal" date="2002-07-20" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="7846" birthdate="1986-08-18" firstname="Luana" gender="F" lastname="Calore" nation="SUI">
+            <CLUB clubid="600" code="WINT" name="Schwimmclub Winterthur" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:19.62">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="1269" city="Chur" date="1997-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="2098" birthdate="1981-07-01" firstname="Flavia" gender="F" lastname="Rigamonti" nation="SUI">
+            <CLUB clubid="692" code="ATLA" name="Atlantide" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:05:07.84">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:07.67" />
+            <SPLIT distance="200" swimtime="00:02:29.45" />
+            <SPLIT distance="300" swimtime="00:04:01.10" />
+            <SPLIT distance="400" swimtime="00:05:07.84" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="12856" birthdate="1993-01-15" firstname="Annick" gender="F" lastname="van Westendorp" nation="SUI">
+            <CLUB clubid="600" code="WINT" name="Schwimmclub Winterthur" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:08:55.03">
+          <SWIMSTYLE distance="800" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:04.11" />
+            <SPLIT distance="200" swimtime="00:02:11.12" />
+            <SPLIT distance="300" swimtime="00:03:18.66" />
+            <SPLIT distance="400" swimtime="00:04:26.69" />
+            <SPLIT distance="500" swimtime="00:05:34.50" />
+            <SPLIT distance="600" swimtime="00:06:41.95" />
+            <SPLIT distance="700" swimtime="00:07:49.58" />
+            <SPLIT distance="800" swimtime="00:08:55.03" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11890" birthdate="1993-02-27" firstname="Julia" gender="F" lastname="Hassler" nation="LIE">
+            <CLUB clubid="639" code="SCUL" name="Schwimm-Club Unterland Eschen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="M" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="13" agemin="13" />
+      <RECORDS>
+        <RECORD swimtime="00:00:58.46">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:28.11" />
+            <SPLIT distance="100" swimtime="00:00:58.46" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14174" birthdate="1995-01-16" firstname="This" gender="M" lastname="Oderbolz" nation="SUI">
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:04.02">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4837986" birthdate="1996-02-28" firstname="Paolo" gender="M" lastname="Matiz" nation="SUI">
+            <CLUB clubid="544" code="SKBE" name="Schwimm-Klub Bern" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:07.46">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:33.33" />
+            <SPLIT distance="100" swimtime="00:01:07.46" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11559" birthdate="1994-02-02" firstname="Lino" gender="M" lastname="Fornasari" nation="SUI">
+            <CLUB clubid="512" code="LYN" name="Lancy-Natation" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:12.61">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4456745" birthdate="1996-02-21" firstname="Patrik" gender="M" lastname="Schwarzenbach" nation="SUI">
+            <CLUB clubid="623" code="KREU" name="Schwimmclub Kreuzlingen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:08.34">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:29.38" />
+            <SPLIT distance="100" swimtime="00:01:02.29" />
+            <SPLIT distance="150" swimtime="00:01:36.17" />
+            <SPLIT distance="200" swimtime="00:02:08.34" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-12" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14088" birthdate="1995-05-14" firstname="Fabio" gender="M" lastname="Ciccone" nation="SUI">
+            <CLUB clubid="570" code="AARE" name="Schwimmclub Aarefisch" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:19.75">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.81" />
+            <SPLIT distance="100" swimtime="00:01:06.06" />
+            <SPLIT distance="150" swimtime="00:01:43.28" />
+            <SPLIT distance="200" swimtime="00:02:19.75" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-11" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14088" birthdate="1995-05-14" firstname="Fabio" gender="M" lastname="Ciccone" nation="SUI">
+            <CLUB clubid="570" code="AARE" name="Schwimmclub Aarefisch" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:21.62">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:08.68" />
+            <SPLIT distance="200" swimtime="00:02:21.62" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4456745" birthdate="1996-02-21" firstname="Patrik" gender="M" lastname="Schwarzenbach" nation="SUI">
+            <CLUB clubid="623" code="KREU" name="Schwimmclub Kreuzlingen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:25.01">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:11.99" />
+            <SPLIT distance="200" swimtime="00:02:25.01" />
+          </SPLITS>
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11762" birthdate="1993-03-20" firstname="Marcel" gender="M" lastname="Betschart" nation="SUI">
+            <CLUB clubid="595" code="LIMM" name="Limmat Sharks Zürich" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:35.72">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:15.51" />
+            <SPLIT distance="200" swimtime="00:02:35.72" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4456745" birthdate="1996-02-21" firstname="Patrik" gender="M" lastname="Schwarzenbach" nation="SUI">
+            <CLUB clubid="623" code="KREU" name="Schwimmclub Kreuzlingen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:26.00">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="5937731" city="Chiasso" date="1993-07-30" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="735" birthdate="1980-01-01" firstname="Patrick" gender="M" lastname="Boschung" nation="SUI">
+            <CLUB clubid="501" code="GEN" name="Genève Natation 1885" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="F" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="15" agemin="15" />
+      <RECORDS>
+        <RECORD swimtime="00:00:58.92">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="436" city="Lancy" date="1995-07-28" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="2706" birthdate="1980-09-22" firstname="Nicole" gender="F" lastname="Zahnd" nation="SUI">
+            <CLUB clubid="568" code="WORB" name="Schwimm-Klub Worb" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:04.96">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <MEETINFO meetinfoid="5937724" city="Lancy" date="1992-07-24" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="2170" birthdate="1977-07-14" firstname="Dominique" gender="F" lastname="Diezi" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:05.57">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <MEETINFO meetinfoid="2423" city="Langenthal" date="2002-07-20" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="8889" birthdate="1987-07-03" firstname="Stephanie" gender="F" lastname="Lüscher" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:14.23">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:34.87" />
+            <SPLIT distance="100" swimtime="00:01:14.23" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-11" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14151" birthdate="1993-04-22" firstname="Corinne" gender="F" lastname="Meier" nation="SUI">
+            <CLUB clubid="551" code="SVE" name="Schwimmverein Emmen" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:06.73">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:00.56" />
+            <SPLIT distance="200" swimtime="00:02:06.73" />
+          </SPLITS>
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="8993" birthdate="1991-01-02" firstname="Laila" gender="F" lastname="Werner" nation="SUI">
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:22.96">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:07.88" />
+            <SPLIT distance="200" swimtime="00:02:22.96" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2423" city="Langenthal" date="2002-07-21" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="8889" birthdate="1987-07-03" firstname="Stephanie" gender="F" lastname="Lüscher" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:24.82">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:09.08" />
+            <SPLIT distance="200" swimtime="00:02:24.82" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13833" birthdate="1994-12-10" firstname="Mia" gender="F" lastname="Baric" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:26.07">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:11.56" />
+            <SPLIT distance="200" swimtime="00:02:26.07" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4362901" birthdate="1994-12-12" firstname="Noémi" gender="F" lastname="Girardet" nation="SUI">
+            <CLUB clubid="522" code="NYON" name="Cercle des Nageurs de Nyon" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:41.71">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:18.78" />
+            <SPLIT distance="200" swimtime="00:02:41.71" />
+          </SPLITS>
+          <MEETINFO meetinfoid="4857622" city="Geneva" date="1999-07-25" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4014" birthdate="1984-04-05" firstname="Sara" gender="F" lastname="Pedretti" nation="SUI">
+            <CLUB clubid="617" code="CHUR" name="Schwimmclub Chur" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:25.69">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:02.18" />
+            <SPLIT distance="200" swimtime="00:02:08.99" />
+            <SPLIT distance="300" swimtime="00:03:17.53" />
+            <SPLIT distance="400" swimtime="00:04:25.69" />
+          </SPLITS>
+          <MEETINFO meetinfoid="4857622" city="Geneva" date="1999-07-23" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4656" birthdate="1984-05-29" firstname="Hanna" gender="F" lastname="Miluska" nation="SUI">
+            <CLUB clubid="667" code="SVB" name="Schwimmverein beider Basel" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:05:14.84">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:11.46" />
+            <SPLIT distance="200" swimtime="00:02:33.37" />
+            <SPLIT distance="300" swimtime="00:04:04.43" />
+            <SPLIT distance="400" swimtime="00:05:14.84" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13833" birthdate="1994-12-10" firstname="Mia" gender="F" lastname="Baric" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:09:14.15">
+          <SWIMSTYLE distance="800" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:04.62" />
+            <SPLIT distance="200" swimtime="00:02:14.12" />
+            <SPLIT distance="300" swimtime="00:03:24.10" />
+            <SPLIT distance="400" swimtime="00:04:34.68" />
+            <SPLIT distance="500" swimtime="00:05:44.60" />
+            <SPLIT distance="600" swimtime="00:06:55.40" />
+            <SPLIT distance="700" swimtime="00:08:05.92" />
+            <SPLIT distance="800" swimtime="00:09:14.15" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="12130" birthdate="1994-10-21" firstname="Maria" gender="F" lastname="Airaghi" nation="SUI">
+            <CLUB clubid="650" code="SNB" name="Società Nuoto Bellinzona" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="F" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="14" agemin="14" />
+      <RECORDS>
+        <RECORD swimtime="00:01:00.15">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:28.34" />
+            <SPLIT distance="100" swimtime="00:01:00.15" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2197" city="Geneva" date="2001-07-29" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="6459" birthdate="1987-08-16" firstname="Seraina" gender="F" lastname="Prünte" nation="SUI">
+            <CLUB clubid="667" code="SVB" name="Schwimmverein beider Basel" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:05.15">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.06" />
+            <SPLIT distance="100" swimtime="00:01:05.15" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-12" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10469297" birthdate="1994-01-26" firstname="Danielle" gender="F" lastname="Sims" nation="SUI">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:07.71">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14014" birthdate="1995-04-29" firstname="Muriel" gender="F" lastname="Wobmann" nation="SUI">
+            <CLUB clubid="551" code="SVE" name="Schwimmverein Emmen" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:12.04">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <MEETINFO meetinfoid="2899" city="Kreuzlingen" date="2004-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10270" birthdate="1990-03-20" firstname="Patrizia" gender="F" lastname="Humplik" nation="SUI">
+            <CLUB clubid="544" code="SKBE" name="Schwimm-Klub Bern" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:11.49">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="1530" city="Lancy" date="1998-07-24" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4656" birthdate="1984-05-29" firstname="Hanna" gender="F" lastname="Miluska" nation="SUI">
+            <CLUB clubid="667" code="SVB" name="Schwimmverein beider Basel" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:22.92">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:07.23" />
+            <SPLIT distance="200" swimtime="00:02:22.92" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14548" birthdate="1995-02-07" firstname="Anais" gender="F" lastname="De Marchi" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:25.55">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:32.36" />
+            <SPLIT distance="100" swimtime="00:01:09.23" />
+            <SPLIT distance="150" swimtime="00:01:47.62" />
+            <SPLIT distance="200" swimtime="00:02:25.55" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2197" city="Geneva" date="2001-07-29" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="8889" birthdate="1987-07-03" firstname="Stephanie" gender="F" lastname="Lüscher" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:26.28">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <MEETINFO meetinfoid="1530" city="Lancy" date="1998-07-24" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="3018" birthdate="1984-03-03" firstname="Ivana" gender="F" lastname="Gabrilo" nation="SUI">
+            <CLUB clubid="691" code="FTL" name="Flippers Team Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:38.78">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:16.12" />
+            <SPLIT distance="200" swimtime="00:02:38.78" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2899" city="Kreuzlingen" date="2004-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10270" birthdate="1990-03-20" firstname="Patrizia" gender="F" lastname="Humplik" nation="SUI">
+            <CLUB clubid="544" code="SKBE" name="Schwimm-Klub Bern" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:33.11">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.94" />
+            <SPLIT distance="100" swimtime="00:01:04.83" />
+            <SPLIT distance="150" swimtime="00:01:39.28" />
+            <SPLIT distance="200" swimtime="00:02:14.75" />
+            <SPLIT distance="250" swimtime="00:02:49.39" />
+            <SPLIT distance="300" swimtime="00:03:24.51" />
+            <SPLIT distance="350" swimtime="00:03:59.41" />
+            <SPLIT distance="400" swimtime="00:04:33.11" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-11" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="12130" birthdate="1994-10-21" firstname="Maria" gender="F" lastname="Airaghi" nation="SUI">
+            <CLUB clubid="650" code="SNB" name="Società Nuoto Bellinzona" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:09:29.06">
+          <SWIMSTYLE distance="800" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:32.34" />
+            <SPLIT distance="100" swimtime="00:01:07.14" />
+            <SPLIT distance="150" swimtime="00:01:42.36" />
+            <SPLIT distance="200" swimtime="00:02:18.34" />
+            <SPLIT distance="250" swimtime="00:02:54.28" />
+            <SPLIT distance="300" swimtime="00:03:30.29" />
+            <SPLIT distance="350" swimtime="00:04:06.64" />
+            <SPLIT distance="400" swimtime="00:04:43.03" />
+            <SPLIT distance="450" swimtime="00:05:19.18" />
+            <SPLIT distance="500" swimtime="00:05:55.70" />
+            <SPLIT distance="550" swimtime="00:06:31.77" />
+            <SPLIT distance="600" swimtime="00:07:08.03" />
+            <SPLIT distance="650" swimtime="00:07:44.50" />
+            <SPLIT distance="700" swimtime="00:08:20.80" />
+            <SPLIT distance="750" swimtime="00:08:56.38" />
+            <SPLIT distance="800" swimtime="00:09:29.06" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-10" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="12130" birthdate="1994-10-21" firstname="Maria" gender="F" lastname="Airaghi" nation="SUI">
+            <CLUB clubid="650" code="SNB" name="Società Nuoto Bellinzona" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="M" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="12" agemin="-1" />
+      <RECORDS>
+        <RECORD swimtime="00:01:00.31">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:29.23" />
+            <SPLIT distance="100" swimtime="00:01:00.31" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14174" birthdate="1995-01-16" firstname="This" gender="M" lastname="Oderbolz" nation="SUI">
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:08.92">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:32.07" />
+            <SPLIT distance="100" swimtime="00:01:08.92" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-14" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14088" birthdate="1995-05-14" firstname="Fabio" gender="M" lastname="Ciccone" nation="SUI">
+            <CLUB clubid="570" code="AARE" name="Schwimmclub Aarefisch" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:11.02">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:34.60" />
+            <SPLIT distance="100" swimtime="00:01:11.02" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14813" birthdate="1995-06-15" firstname="Alexandre" gender="M" lastname="Tschabuschnig" nation="SUI">
+            <CLUB clubid="512" code="LYN" name="Lancy-Natation" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:18.80">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <MEETINFO meetinfoid="2640" city="Vevey" date="2003-07-20" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="6403" birthdate="1991-01-16" firstname="Simone" gender="M" lastname="Pellanda" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:30.46">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <MEETINFO meetinfoid="5937724" city="Lancy" date="1992-07-24" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="735" birthdate="1980-01-01" firstname="Patrick" gender="M" lastname="Boschung" nation="SUI">
+            <CLUB clubid="501" code="GEN" name="Genève Natation 1885" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:40.54">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="5937724" city="Lancy" date="1992-07-24" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="735" birthdate="1980-01-01" firstname="Patrick" gender="M" lastname="Boschung" nation="SUI">
+            <CLUB clubid="501" code="GEN" name="Genève Natation 1885" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="F" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="12" agemin="-1" />
+      <RECORDS>
+        <RECORD swimtime="00:01:01.57">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:29.32" />
+            <SPLIT distance="100" swimtime="00:01:01.57" />
+          </SPLITS>
+          <MEETINFO meetinfoid="4184949" city="Lancy" date="2005-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="12053" birthdate="1993-03-06" firstname="Danielle" gender="F" lastname="Villars" nation="SUI">
+            <CLUB clubid="585" code="MEIL" name="Schwimmclub Meilen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:10.04">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:32.99" />
+            <SPLIT distance="100" swimtime="00:01:10.04" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-14" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13526" birthdate="1995-02-07" firstname="Adriana" gender="F" lastname="Crovetto" nation="SUI">
+            <CLUB clubid="771" code="TAL" name="Team Atlantide &amp; Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:11.97">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:35.18" />
+            <SPLIT distance="100" swimtime="00:01:11.97" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11183" birthdate="1995-04-05" firstname="Kieu Oanh" gender="F" lastname="Pham" nation="SUI">
+            <CLUB clubid="667" code="SVB" name="Schwimmverein beider Basel" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:11.97">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-14" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="4790555" birthdate="1994-01-19" firstname="Megan Faye" gender="F" lastname="Connor" nation="GBR">
+            <CLUB clubid="591" code="SCUW" name="Schwimmclub Uster-Wallisellen" nation="SUI" region="RZO" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:18.77">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <MEETINFO meetinfoid="436" city="Lancy" date="1995-07-28" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="2284" birthdate="1983-10-22" firstname="Agata" gender="F" lastname="Czaplicki" nation="SUI">
+            <CLUB clubid="692" code="ATLA" name="Atlantide" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:33.78">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:14.61" />
+            <SPLIT distance="200" swimtime="00:02:33.78" />
+          </SPLITS>
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11731" birthdate="1994-09-14" firstname="Saskia" gender="F" lastname="König" nation="SUI">
+            <CLUB clubid="667" code="SVB" name="Schwimmverein beider Basel" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:44.08">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:06.38" />
+            <SPLIT distance="200" swimtime="00:02:19.11" />
+            <SPLIT distance="300" swimtime="00:03:32.23" />
+            <SPLIT distance="400" swimtime="00:04:44.08" />
+          </SPLITS>
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="11859" birthdate="1994-05-09" firstname="Fabienne" gender="F" lastname="Puppin" nation="SUI">
+            <CLUB clubid="622" code="HER" name="Schwimmclub Herisau" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="F" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="13" agemin="13" />
+      <RECORDS>
+        <RECORD swimtime="00:01:01.59">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
+          <MEETINFO meetinfoid="2640" city="Vevey" date="2003-07-20" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="9917" birthdate="1990-06-29" firstname="Sarah" gender="F" lastname="Radke" nation="USA">
+            <CLUB clubid="512" code="LYN" name="Lancy-Natation" nation="SUI" region="RSR" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:06.16">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:32.26" />
+            <SPLIT distance="100" swimtime="00:01:06.16" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-11" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13526" birthdate="1995-02-07" firstname="Adriana" gender="F" lastname="Crovetto" nation="SUI">
+            <CLUB clubid="12874657" code="AST" name="A-Club Swimming Team Savosa" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:07.81">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:31.99" />
+            <SPLIT distance="100" swimtime="00:01:07.81" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-12" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13820" birthdate="1995-06-01" firstname="Gaia" gender="F" lastname="Di Salvo" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:01:15.75">
+          <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
+          <MEETINFO meetinfoid="2640" city="Vevey" date="2003-07-20" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="10270" birthdate="1990-03-20" firstname="Patrizia" gender="F" lastname="Humplik" nation="SUI">
+            <CLUB clubid="544" code="SKBE" name="Schwimm-Klub Bern" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:13.03">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:04.21" />
+            <SPLIT distance="200" swimtime="00:02:13.03" />
+          </SPLITS>
+          <MEETINFO meetinfoid="2423" city="Langenthal" date="2002-07-19" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="3113" birthdate="1989-03-07" firstname="Syrille" gender="F" lastname="Rupp" nation="SUI">
+            <CLUB clubid="622" code="HER" name="Schwimmclub Herisau" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:25.98">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:07.91" />
+            <SPLIT distance="200" swimtime="00:02:25.98" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14260" birthdate="1996-12-28" firstname="Maria" gender="F" lastname="Batliner" nation="LIE">
+            <CLUB clubid="639" code="SCUL" name="Schwimm-Club Unterland Eschen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:26.23">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:33.79" />
+            <SPLIT distance="100" swimtime="00:01:10.83" />
+            <SPLIT distance="150" swimtime="00:01:49.22" />
+            <SPLIT distance="200" swimtime="00:02:26.23" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13526" birthdate="1995-02-07" firstname="Adriana" gender="F" lastname="Crovetto" nation="SUI">
+            <CLUB clubid="12874657" code="AST" name="A-Club Swimming Team Savosa" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:30.20">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:33.17" />
+            <SPLIT distance="100" swimtime="00:01:11.60" />
+            <SPLIT distance="150" swimtime="00:01:50.03" />
+            <SPLIT distance="200" swimtime="00:02:30.20" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-11" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="13820" birthdate="1995-06-01" firstname="Gaia" gender="F" lastname="Di Salvo" nation="SUI">
+            <CLUB clubid="653" code="NSL" name="Nuoto Sport Locarno" nation="SUI" region="RSI" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:02:44.99">
+          <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:19.33" />
+            <SPLIT distance="200" swimtime="00:02:44.99" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-18" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="1192364" birthdate="1996-10-06" firstname="Jennifer" gender="F" lastname="Bovay" nation="SUI">
+            <CLUB clubid="689" code="BIEL" name="Swim Team Biel-Bienne" nation="SUI" region="RZW" />
+          </ATHLETE>
+        </RECORD>
+        <RECORD swimtime="00:04:36.48">
+          <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:01:04.09" />
+            <SPLIT distance="200" swimtime="00:02:14.77" />
+            <SPLIT distance="300" swimtime="00:03:26.86" />
+            <SPLIT distance="400" swimtime="00:04:36.48" />
+          </SPLITS>
+          <MEETINFO meetinfoid="21984378" city="Renens" date="2009-07-17" name="Swiss Junior Championships" nation="SUI" />
+          <ATHLETE athleteid="14260" birthdate="1996-12-28" firstname="Maria" gender="F" lastname="Batliner" nation="LIE">
+            <CLUB clubid="639" code="SCUL" name="Schwimm-Club Unterland Eschen" nation="SUI" region="ROS" />
+          </ATHLETE>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="M" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="16" agemin="-1" calculate="SINGLE" />
+      <RECORDS>
+        <RECORD swimtime="00:03:44.23">
+          <SWIMSTYLE distance="100" relaycount="4" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="100" swimtime="00:00:56.41" />
+            <SPLIT distance="200" swimtime="00:01:50.78" />
+            <SPLIT distance="300" swimtime="00:02:49.11" />
+            <SPLIT distance="400" swimtime="00:03:44.23" />
+          </SPLITS>
+          <MEETINFO meetinfoid="7312529" city="Schaffhausen" date="2006-07-16" name="Swiss Junior Championships" nation="SUI" />
+          <RELAY>
+            <CLUB clubid="544" code="SKBE" name="Schwimm-Klub Bern" nation="SUI" region="RZW" />
+            <RELAYPOSITIONS>
+              <RELAYPOSITION number="1">
+                <ATHLETE athleteid="1177899" birthdate="1990-05-07" firstname="David" gender="M" lastname="Jegerlehner" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="2">
+                <ATHLETE athleteid="11262" birthdate="1990-04-14" firstname="Nicola" gender="M" lastname="Aeby" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="3">
+                <ATHLETE athleteid="10273" birthdate="1992-01-03" firstname="Simon" gender="M" lastname="Kneubühler" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="4">
+                <ATHLETE athleteid="8761" birthdate="1990-05-25" firstname="Marc-Luca" gender="M" lastname="Ramsebner" nation="SUI" />
+              </RELAYPOSITION>
+            </RELAYPOSITIONS>
+          </RELAY>
+        </RECORD>
+        <RECORD swimtime="00:04:10.38">
+          <SWIMSTYLE distance="100" relaycount="4" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:31.75" />
+            <SPLIT distance="100" swimtime="00:01:06.29" />
+            <SPLIT distance="150" swimtime="00:01:38.03" />
+            <SPLIT distance="200" swimtime="00:02:15.65" />
+            <SPLIT distance="250" swimtime="00:02:43.35" />
+            <SPLIT distance="300" swimtime="00:03:15.74" />
+            <SPLIT distance="350" swimtime="00:03:41.57" />
+            <SPLIT distance="400" swimtime="00:04:10.38" />
+          </SPLITS>
+          <MEETINFO meetinfoid="4184949" city="Lancy" date="2005-07-14" name="Swiss Junior Championships" nation="SUI" />
+          <RELAY>
+            <CLUB clubid="771" code="TAL" name="Team Atlantide &amp; Locarno" nation="SUI" region="RSI" />
+            <RELAYPOSITIONS>
+              <RELAYPOSITION number="1">
+                <ATHLETE athleteid="6750" birthdate="1989-03-20" firstname="Luca" gender="M" lastname="Stinca" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="2">
+                <ATHLETE athleteid="6403" birthdate="1991-01-16" firstname="Simone" gender="M" lastname="Pellanda" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="3">
+                <ATHLETE athleteid="6975" birthdate="1989-05-31" firstname="Fabrizio" gender="M" lastname="Sirica" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="4">
+                <ATHLETE athleteid="14615" birthdate="1989-09-24" firstname="Eugenio" gender="M" lastname="Bianchi" nation="SUI" />
+              </RELAYPOSITION>
+            </RELAYPOSITIONS>
+          </RELAY>
+        </RECORD>
+        <RECORD swimtime="00:08:16.25">
+          <SWIMSTYLE distance="200" relaycount="4" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:27.75" />
+            <SPLIT distance="100" swimtime="00:00:58.26" />
+            <SPLIT distance="150" swimtime="00:01:29.28" />
+            <SPLIT distance="200" swimtime="00:01:59.99" />
+            <SPLIT distance="250" swimtime="00:02:28.50" />
+            <SPLIT distance="300" swimtime="00:03:00.71" />
+            <SPLIT distance="350" swimtime="00:03:34.81" />
+            <SPLIT distance="400" swimtime="00:04:06.77" />
+            <SPLIT distance="450" swimtime="00:04:35.96" />
+            <SPLIT distance="500" swimtime="00:05:07.04" />
+            <SPLIT distance="550" swimtime="00:05:39.04" />
+            <SPLIT distance="600" swimtime="00:06:10.28" />
+            <SPLIT distance="650" swimtime="00:06:38.94" />
+            <SPLIT distance="700" swimtime="00:07:11.06" />
+            <SPLIT distance="750" swimtime="00:07:44.14" />
+            <SPLIT distance="800" swimtime="00:08:16.25" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-13" name="Swiss Junior Championships" nation="SUI" />
+          <RELAY>
+            <CLUB clubid="771" code="TAL" name="Team Atlantide &amp; Locarno" nation="SUI" region="RSI" />
+            <RELAYPOSITIONS>
+              <RELAYPOSITION number="1">
+                <ATHLETE athleteid="7930" birthdate="1991-04-19" firstname="Nils" gender="M" lastname="Anderlind" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="2">
+                <ATHLETE athleteid="11818" birthdate="1992-05-27" firstname="Stefano" gender="M" lastname="Cavalli" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="3">
+                <ATHLETE athleteid="10866" birthdate="1992-01-20" firstname="Mario" gender="M" lastname="Filipovic" nation="CRO" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="4">
+                <ATHLETE athleteid="10854" birthdate="1991-11-10" firstname="Jovan" gender="M" lastname="Mitrovic" nation="SUI" />
+              </RELAYPOSITION>
+            </RELAYPOSITIONS>
+          </RELAY>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+    <RECORDLIST recordlistid="4736367" course="LCM" gender="F" name="Swiss Junior Championship Records" order="1105" type="SUI.JCR" updated="2009-07-19" formeet="yes">
+      <AGEGROUP agemax="16" agemin="-1" calculate="SINGLE" />
+      <RECORDS>
+        <RECORD swimtime="00:04:04.59">
+          <SWIMSTYLE distance="100" relaycount="4" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:29.44" />
+            <SPLIT distance="100" swimtime="00:01:01.25" />
+            <SPLIT distance="150" swimtime="00:01:30.85" />
+            <SPLIT distance="200" swimtime="00:02:02.53" />
+            <SPLIT distance="250" swimtime="00:02:32.30" />
+            <SPLIT distance="300" swimtime="00:03:04.72" />
+            <SPLIT distance="350" swimtime="00:03:34.00" />
+            <SPLIT distance="400" swimtime="00:04:04.59" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-15" name="Swiss Junior Championships" nation="SUI" />
+          <RELAY>
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+            <RELAYPOSITIONS>
+              <RELAYPOSITION number="1">
+                <ATHLETE athleteid="9699" birthdate="1992-06-25" firstname="Aline" gender="F" lastname="Spleiss" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="2">
+                <ATHLETE athleteid="9672" birthdate="1992-07-05" firstname="Pia" gender="F" lastname="Oderbolz" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="3">
+                <ATHLETE athleteid="9733" birthdate="1991-10-04" firstname="Corina" gender="F" lastname="Moser" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="4">
+                <ATHLETE athleteid="8996" birthdate="1992-04-17" firstname="Lisa" gender="F" lastname="Stamm" nation="SUI" />
+              </RELAYPOSITION>
+            </RELAYPOSITIONS>
+          </RELAY>
+        </RECORD>
+        <RECORD swimtime="00:04:35.00">
+          <SWIMSTYLE distance="100" relaycount="4" stroke="MEDLEY" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:33.92" />
+            <SPLIT distance="100" swimtime="00:01:09.47" />
+            <SPLIT distance="150" swimtime="00:01:45.63" />
+            <SPLIT distance="200" swimtime="00:02:28.12" />
+            <SPLIT distance="250" swimtime="00:02:58.78" />
+            <SPLIT distance="300" swimtime="00:03:33.79" />
+            <SPLIT distance="350" swimtime="00:04:02.44" />
+            <SPLIT distance="400" swimtime="00:04:35.00" />
+          </SPLITS>
+          <MEETINFO meetinfoid="15195143" city="Kreuzlingen" date="2008-07-10" name="Swiss Junior Championships" nation="SUI" />
+          <RELAY>
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+            <RELAYPOSITIONS>
+              <RELAYPOSITION number="1">
+                <ATHLETE athleteid="14181" birthdate="1995-10-01" firstname="Natasa" gender="F" lastname="Petrovic" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="2">
+                <ATHLETE athleteid="14179" birthdate="1993-05-01" firstname="Bojana" gender="F" lastname="Milosevic" nation="BIH" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="3">
+                <ATHLETE athleteid="8996" birthdate="1992-04-17" firstname="Lisa" gender="F" lastname="Stamm" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="4">
+                <ATHLETE athleteid="9699" birthdate="1992-06-25" firstname="Aline" gender="F" lastname="Spleiss" nation="SUI" />
+              </RELAYPOSITION>
+            </RELAYPOSITIONS>
+          </RELAY>
+        </RECORD>
+        <RECORD swimtime="00:08:54.01">
+          <SWIMSTYLE distance="200" relaycount="4" stroke="FREE" />
+          <SPLITS>
+            <SPLIT distance="50" swimtime="00:00:30.59" />
+            <SPLIT distance="100" swimtime="00:01:04.50" />
+            <SPLIT distance="150" swimtime="00:01:38.67" />
+            <SPLIT distance="200" swimtime="00:02:11.35" />
+            <SPLIT distance="250" swimtime="00:02:40.37" />
+            <SPLIT distance="300" swimtime="00:03:14.52" />
+            <SPLIT distance="350" swimtime="00:03:51.43" />
+            <SPLIT distance="400" swimtime="00:04:26.41" />
+            <SPLIT distance="450" swimtime="00:04:56.99" />
+            <SPLIT distance="500" swimtime="00:05:31.62" />
+            <SPLIT distance="550" swimtime="00:06:06.55" />
+            <SPLIT distance="600" swimtime="00:06:41.77" />
+            <SPLIT distance="650" swimtime="00:07:11.45" />
+            <SPLIT distance="700" swimtime="00:07:44.88" />
+            <SPLIT distance="750" swimtime="00:08:19.64" />
+            <SPLIT distance="800" swimtime="00:08:54.01" />
+          </SPLITS>
+          <MEETINFO meetinfoid="10674088" city="Grand-Lancy" date="2007-07-14" name="Swiss Junior Championships" nation="SUI" />
+          <RELAY>
+            <CLUB clubid="630" code="SCSH" name="Schwimmclub Schaffhausen" nation="SUI" region="ROS" />
+            <RELAYPOSITIONS>
+              <RELAYPOSITION number="1">
+                <ATHLETE athleteid="8996" birthdate="1992-04-17" firstname="Lisa" gender="F" lastname="Stamm" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="2">
+                <ATHLETE athleteid="9699" birthdate="1992-06-25" firstname="Aline" gender="F" lastname="Spleiss" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="3">
+                <ATHLETE athleteid="9733" birthdate="1991-10-04" firstname="Corina" gender="F" lastname="Moser" nation="SUI" />
+              </RELAYPOSITION>
+              <RELAYPOSITION number="4">
+                <ATHLETE athleteid="9672" birthdate="1992-07-05" firstname="Pia" gender="F" lastname="Oderbolz" nation="SUI" />
+              </RELAYPOSITION>
+            </RELAYPOSITIONS>
+          </RELAY>
+        </RECORD>
+      </RECORDS>
+    </RECORDLIST>
+  </RECORDLISTS>
+</LENEX>
