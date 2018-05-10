@@ -1,6 +1,7 @@
 package com.github.tiim.lenexjava.model;
 
 import com.github.tiim.lenexjava.adapder.SwimTimeAdapter;
+import com.google.common.base.MoreObjects;
 
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
@@ -113,5 +114,21 @@ public class Entry {
 
     public void setStatus(StatusEntry status) {
         this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return MoreObjects.toStringHelper(this)
+                .add("eventid", eventid)
+                .add("heatid", heatid)
+                .add("lane", lane)
+                .add("entrytime", entrytime)
+                .add("agegroupid", agegroupid)
+                .add("entrycourse", entrycourse)
+                .add("meetinfo", meetinfo)
+                .add("relayPositions", relayPositions)
+                .add("status", status)
+                .omitNullValues()
+                .toString();
     }
 }

@@ -1,6 +1,7 @@
 package com.github.tiim.lenexjava.model;
 
 import com.github.tiim.lenexjava.adapder.LocalDateAdapter;
+import com.google.common.base.MoreObjects;
 
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
@@ -189,5 +190,29 @@ public class Athlete {
 
     public void setSwrid(int swrid) {
         this.swrid = swrid;
+    }
+
+    @Override
+    public String toString() {
+        return MoreObjects.toStringHelper(this)
+                .add("id", athleteid)
+                .add("firstname", firstname)
+                .add("firstnameEn", firstnameEn)
+                .add("lastname", lastname)
+                .add("lastnameEn", lastnameEn)
+                .add("nameprefix", nameprefix)
+                .add("birthdate", birthdate)
+                .add("club", club)
+                .add("entries", entries)
+                .add("gender", gender)
+                .add("handicap", handicap)
+                .add("level", level)
+                .add("license", license)
+                .add("nation", nation)
+                .add("passport", passport)
+                .add("results", results)
+                .add("swrid", swrid)
+                .omitNullValues()
+                .toString();
     }
 }
