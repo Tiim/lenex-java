@@ -9,22 +9,22 @@ import java.util.List;
 public class Lenex {
 
     @XmlElement(name = "CONSTRUCTOR", required = true)
-    public Constructor constructor;
+    private Constructor constructor;
 
     @XmlElement(name = "MEET")
     @XmlElementWrapper(name = "MEETS")
-    public List<Meet> meets;
+    private List<Meet> meets;
 
     @XmlElement(name = "RECORDLIST")
     @XmlElementWrapper(name = "RECORDLISTS")
-    public List<RecordList> recordLists;
+    private List<RecordList> recordLists;
 
     @XmlElement(name = "TIMESTANDARDLIST")
     @XmlElementWrapper(name = "TIMESTANDARDLISTS")
-    public List<TimeStandardList> timeStandardLists;
+    private List<TimeStandardList> timeStandardLists;
 
     @XmlAttribute(name = "version", required = true)
-    public String version;
+    private String version;
 
     public Constructor getConstructor() {
         return constructor;

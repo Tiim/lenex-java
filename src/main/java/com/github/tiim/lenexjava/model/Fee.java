@@ -6,11 +6,11 @@ import javax.xml.bind.annotation.*;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Fee {
     @XmlAttribute(name = "currency")
-    public Currency currency;
+    private Currency currency;
     @XmlAttribute(name = "type", required = true)
-    public TypeFee type;
+    private TypeFee type;
     @XmlAttribute(name = "value", required = true)
-    public int value;
+    private int value;
 
     @XmlType
     @XmlEnum

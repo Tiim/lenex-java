@@ -7,11 +7,11 @@ import javax.xml.bind.annotation.*;
 public class Judge {
 
     @XmlAttribute(name = "number")
-    public int number;
+    private int number;
     @XmlAttribute(name = "officialid", required = true)
-    public int officialid;
+    private int officialid;
     @XmlAttribute(name = "role")
-    public Role role;
+    private Role role;
 
     @XmlType
     @XmlEnum

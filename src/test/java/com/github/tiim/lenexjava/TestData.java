@@ -23,24 +23,24 @@ public class TestData {
 
     @Test
     void testConstructor() {
-        assertEquals("SPLASH Meet Manager 2007", lenex.constructor.name);
-        assertEquals("Splash Software", lenex.constructor.registration);
-        assertEquals("DEBUG Build", lenex.constructor.version);
-        assertEquals("http://www.splash-software.ch", lenex.constructor.contact.internet);
+        assertEquals("SPLASH Meet Manager 2007", lenex.getConstructor().getName());
+        assertEquals("Splash Software", lenex.getConstructor().getRegistration());
+        assertEquals("DEBUG Build", lenex.getConstructor().getVersion());
+        assertEquals("http://www.splash-software.ch", lenex.getConstructor().getContact().getInternet());
     }
 
     @Test
     void testMeet() {
-        assertEquals("Nottwil", lenex.meets.get(0).city);
-        assertEquals(AgeDate.TypeAgeDate.YEAR, lenex.meets.get(0).ageDate.getType());
-        assertEquals(Course.SCM, lenex.meets.get(0).course);
+        assertEquals("Nottwil", lenex.getMeets().get(0).getCity());
+        assertEquals(AgeDate.TypeAgeDate.YEAR, lenex.getMeets().get(0).getAgeDate().getType());
+        assertEquals(Course.SCM, lenex.getMeets().get(0).getCourse());
     }
 
     @Test
     void test() {
-        lenex.meets.stream()
-                .flatMap(m -> m.clubs.stream())
-                .flatMap(c -> c.athletes.stream())
+        lenex.getMeets().stream()
+                .flatMap(m -> m.getClubs().stream())
+                .flatMap(c -> c.getAthletes().stream())
                 .map(Object::toString)
                 .forEach(System.out::println);
     }

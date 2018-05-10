@@ -10,15 +10,15 @@ import java.time.LocalDate;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Qualify {
     @XmlAttribute(name = "conversion")
-    public Conversion conversion;
+    private Conversion conversion;
     @XmlJavaTypeAdapter(LocalDateAdapter.class)
     @XmlAttribute(name = "from", required = true)
-    public LocalDate from;
+    private LocalDate from;
     @XmlAttribute(name = "percent")
-    public int percent;
+    private int percent;
     @XmlJavaTypeAdapter(LocalDateAdapter.class)
     @XmlAttribute(name = "until")
-    public LocalDate until;
+    private LocalDate until;
 
     @XmlType
     @XmlEnum

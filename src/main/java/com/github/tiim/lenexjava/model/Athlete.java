@@ -12,42 +12,42 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Athlete {
     @XmlAttribute(name = "athleteid", required = true)
-    public int athleteid;
+    private int athleteid;
     @XmlJavaTypeAdapter(LocalDateAdapter.class)
     @XmlAttribute(name = "birthdate", required = true)
-    public LocalDate birthdate;
+    private LocalDate birthdate;
     @XmlElement(name = "CLUB")
-    public Club club;
+    private Club club;
     @XmlElementWrapper(name = "ENTRIES")
     @XmlElement(name = "ENTRY")
-    public List<Entry> entries;
+    private List<Entry> entries;
     @XmlAttribute(name = "firstname", required = true)
-    public String firstname;
+    private String firstname;
     @XmlAttribute(name = "firstname.en")
-    public String firstnameEn;
+    private String firstnameEn;
     @XmlAttribute(name = "gender", required = true)
-    public Gender gender;
+    private Gender gender;
     @XmlElement(name = "HANDICAP")
-    public Handicap handicap;
+    private Handicap handicap;
     @XmlAttribute(name = "lastname", required = true)
-    public String lastname;
+    private String lastname;
     @XmlAttribute(name = "lastname.en")
-    public String lastnameEn;
+    private String lastnameEn;
     @XmlAttribute(name = "level")
-    public String level;
+    private String level;
     @XmlAttribute(name = "license")
-    public String license;
+    private String license;
     @XmlAttribute(name = "nameprefix")
-    public String nameprefix;
+    private String nameprefix;
     @XmlAttribute(name = "nation")
-    public Nation nation;
+    private Nation nation;
     @XmlAttribute(name = "passport")
-    public String passport;
+    private String passport;
     @XmlElement(name = "RESULT")
     @XmlElementWrapper(name = "RESULTS")
-    public List<Result> results;
+    private List<Result> results;
     @XmlAttribute(name = "swrid")
-    public int swrid;
+    private int swrid;
 
     public int getAthleteid() {
         return athleteid;

@@ -6,19 +6,19 @@ import javax.xml.bind.annotation.*;
 @XmlAccessorType(XmlAccessType.NONE)
 public class SwimStyle {
     @XmlAttribute(name = "code")
-    public String code;
+    private String code;
     @XmlAttribute(name = "distance", required = true)
-    public int distance;
+    private int distance;
     @XmlAttribute(name = "name")
-    public String name;
+    private String name;
     @XmlAttribute(name = "relaycount", required = true)
-    public int relaycount;
+    private int relaycount;
     @XmlAttribute(name = "stroke", required = true)
-    public Stroke stroke;
+    private Stroke stroke;
     @XmlAttribute(name = "swimstyleid")
-    public int swimstyleid;
+    private int swimstyleid;
     @XmlAttribute(name = "technique")
-    public Technique technique;
+    private Technique technique;
 
     @XmlType
     @XmlEnum

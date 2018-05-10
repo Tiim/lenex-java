@@ -6,11 +6,11 @@ import javax.xml.bind.annotation.*;
 @XmlAccessorType(XmlAccessType.NONE)
 public class TimeStandardRef {
     @XmlAttribute(name = "timestandardlistid", required = true)
-    public int timestandardlistid;
+    private int timestandardlistid;
     @XmlElement(name = "FEE")
-    public Fee fee;
+    private Fee fee;
     @XmlAttribute(name = "marker")
-    public String marker;
+    private String marker;
 
     public int getTimestandardlistid() {
         return timestandardlistid;

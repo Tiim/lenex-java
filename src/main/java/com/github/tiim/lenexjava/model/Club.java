@@ -10,35 +10,35 @@ public class Club {
 
     @XmlElementWrapper(name = "ATHLETES")
     @XmlElement(name = "ATHLETE")
-    public List<Athlete> athletes;
+    private List<Athlete> athletes;
     @XmlAttribute(name = "code")
-    public String code;
+    private String code;
     @XmlElement(name = "CONTACT")
-    public Contact contact;
+    private Contact contact;
     @XmlAttribute(name = "name", required = true)
-    public String name;
+    private String name;
     @XmlAttribute(name = "name.en")
-    public String nameEn;
+    private String nameEn;
     @XmlAttribute(name = "nation")
-    public Nation nation;
+    private Nation nation;
     @XmlAttribute(name = "number")
-    public int number;
+    private int number;
     @XmlElement(name = "OFFICIAL")
     @XmlElementWrapper(name = "OFFICIALS")
-    public List<Official> officials;
+    private List<Official> officials;
     @XmlAttribute(name = "region")
-    public String region;
+    private String region;
     @XmlElement(name = "RELAY")
     @XmlElementWrapper(name = "RELAYS")
-    public List<RelayMeet> relays;
+    private List<RelayMeet> relays;
     @XmlAttribute(name = "shortname")
-    public String shortname;
+    private String shortname;
     @XmlAttribute(name = "shortname.en")
-    public String shortnameEn;
+    private String shortnameEn;
     @XmlAttribute(name = "swrid")
-    public String swrid;
+    private String swrid;
     @XmlAttribute(name = "type")
-    public TypeClub type;
+    private TypeClub type;
 
     @XmlType
     @XmlEnum

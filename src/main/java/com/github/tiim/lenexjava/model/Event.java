@@ -14,41 +14,41 @@ public class Event implements Comparable<Event> {
 
     @XmlElement(name = "AGEGROUP")
     @XmlElementWrapper(name = "AGEGROUPS")
-    public List<AgeGroup> ageGroups;
+    private List<AgeGroup> ageGroups;
 
     @XmlJavaTypeAdapter(LocalTimeAdapter.class)
     @XmlAttribute(name = "daytime")
-    public LocalTime daytime;
+    private LocalTime daytime;
     @XmlAttribute(name = "eventid", required = true)
-    public int eventid;
+    private int eventid;
     @XmlElement(name = "FEE")
-    public Fee fee;
+    private Fee fee;
     @XmlAttribute(name = "gender")
-    public Gender gender;
+    private Gender gender;
     @XmlElement(name = "HEAT")
     @XmlElementWrapper(name = "HEATS")
-    public List<Heat> heats;
+    private List<Heat> heats;
     @XmlAttribute(name = "maxentries")
-    public int maxentries;
+    private int maxentries;
     @XmlAttribute(name = "number", required = true)
-    public int number;
+    private int number;
     @XmlAttribute(name = "order")
-    public int order;
+    private int order;
     @XmlAttribute(name = "preveventid")
-    public int preveventid;
+    private int preveventid;
     @XmlAttribute(name = "round")
-    public Round round;
+    private Round round;
     @XmlAttribute(name = "run")
-    public int run;
+    private int run;
     @XmlElement(name = "SWIMSTYLE", required = true)
-    public SwimStyle swimstyle;
+    private SwimStyle swimstyle;
     @XmlElement(name = "TIMESTANDARDREF")
     @XmlElementWrapper(name = "TIMESTANDARDREFS")
-    public List<TimeStandardRef> timeStandardRefs;
+    private List<TimeStandardRef> timeStandardRefs;
     @XmlAttribute(name = "timing")
-    public Timing timing;
+    private Timing timing;
     @XmlAttribute(name = "type")
-    public TypeEvent type;
+    private TypeEvent type;
 
     @Override
     public int compareTo(Event o) {

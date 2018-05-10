@@ -9,10 +9,10 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 @XmlAccessorType(XmlAccessType.NONE)
 public class TimeStandard {
     @XmlElement(name = "SWIMSTYLE", required = true)
-    public SwimStyle swimStyle;
+    private SwimStyle swimStyle;
     @XmlJavaTypeAdapter(SwimTimeAdapter.class)
     @XmlAttribute(name = "swimtime", required = true)
-    public SwimTime swimTime;
+    private SwimTime swimTime;
 
     public SwimStyle getSwimStyle() {
         return swimStyle;

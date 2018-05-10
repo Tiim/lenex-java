@@ -8,30 +8,30 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.NONE)
 public class RelayMeet {
     @XmlAttribute(name = "agemax", required = true)
-    public int agemax;
+    private int agemax;
     @XmlAttribute(name = "agemin", required = true)
-    public int agemin;
+    private int agemin;
     @XmlAttribute(name = "agetotalmax", required = true)
-    public int agetotalmax;
+    private int agetotalmax;
     @XmlAttribute(name = "agetotalmin", required = true)
-    public int agetotalmin;
+    private int agetotalmin;
     @XmlElement(name = "ENTRY")
     @XmlElementWrapper(name = "ENTRIES")
-    public List<Entry> entries;
+    private List<Entry> entries;
     @XmlAttribute(name = "gender", required = true)
-    public Gender gender;
+    private Gender gender;
     /**
      * Only 0, 20, 34, 49 allowed.
      */
     @XmlAttribute(name = "handicap")
-    public int handicap;
+    private int handicap;
     @XmlAttribute(name = "name")
-    public String name;
+    private String name;
     @XmlAttribute(name = "number")
-    public int number;
+    private int number;
     @XmlElement(name = "RESULT")
     @XmlElementWrapper(name = "RESULTS")
-    public List<Result> results;
+    private List<Result> results;
 
     public int getAgemax() {
         return agemax;
@@ -84,6 +84,9 @@ public class RelayMeet {
         this.gender = gender;
     }
 
+    /**
+     * Only 0, 20, 34, 49 allowed.
+     */
     public int getHandicap() {
         return handicap;
     }

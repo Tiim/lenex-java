@@ -10,29 +10,29 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Contact {
 
     @XmlAttribute(name = "city")
-    public String city;
+    private String city;
     @XmlAttribute(name = "country")
-    public String country;
+    private String country;
     @XmlAttribute(name = "email", required = true)
-    public String email;
+    private String email;
     @XmlAttribute(name = "fax")
-    public String fax;
+    private String fax;
     @XmlAttribute(name = "internet")
-    public String internet;
+    private String internet;
     @XmlAttribute(name = "name")
-    public String name;
+    private String name;
     @XmlAttribute(name = "mobile")
-    public String mobile;
+    private String mobile;
     @XmlAttribute(name = "phone")
-    public String phone;
+    private String phone;
     @XmlAttribute(name = "state")
-    public String state;
+    private String state;
     @XmlAttribute(name = "street")
-    public String street;
+    private String street;
     @XmlAttribute(name = "street2")
-    public String street2;
+    private String street2;
     @XmlAttribute(name = "zip")
-    public String zip;
+    private String zip;
 
     public String getCity() {
         return city;

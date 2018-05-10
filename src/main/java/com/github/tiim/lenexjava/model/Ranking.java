@@ -9,11 +9,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Ranking {
     @XmlAttribute(name = "order")
-    public int order;
+    private int order;
     @XmlAttribute(name = "place", required = true)
-    public int place;
+    private int place;
     @XmlAttribute(name = "resultid", required = true)
-    public int resultid;
+    private int resultid;
 
     public int getOrder() {
         return order;

@@ -7,13 +7,13 @@ import javax.xml.bind.annotation.*;
 public class Constructor {
 
     @XmlElement(name = "CONTACT", required = true)
-    public Contact contact;
+    private Contact contact;
     @XmlAttribute(name = "name", required = true)
-    public String name;
+    private String name;
     @XmlAttribute(name = "registration")
-    public String registration;
+    private String registration;
     @XmlAttribute(name = "version", required = true)
-    public String version;
+    private String version;
 
     public Contact getContact() {
         return contact;

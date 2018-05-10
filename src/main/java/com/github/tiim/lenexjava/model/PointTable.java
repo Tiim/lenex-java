@@ -9,14 +9,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.NONE)
 public class PointTable {
     @XmlAttribute(name = "name", required = true)
-    public String name;
-    /**
-     * http://www.swimrankings.net/files/Lenex_PointTable.txt
-     */
+    private String name;
     @XmlAttribute(name = "pointtableid")
-    public int pointtableid;
+    private int pointtableid;
     @XmlAttribute(name = "version", required = true)
-    public String version;
+    private String version;
 
     public String getName() {
         return name;
@@ -26,10 +23,16 @@ public class PointTable {
         this.name = name;
     }
 
+    /**
+     * http://www.swimrankings.net/files/Lenex_PointTable.txt
+     */
     public int getPointtableid() {
         return pointtableid;
     }
 
+    /**
+     * http://www.swimrankings.net/files/Lenex_PointTable.txt
+     */
     public void setPointtableid(int pointtableid) {
         this.pointtableid = pointtableid;
     }

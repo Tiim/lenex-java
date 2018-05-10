@@ -12,31 +12,31 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Result {
     @XmlAttribute(name = "comment")
-    public String comment;
+    private String comment;
     @XmlAttribute(name = "eventid", required = true)
-    public int eventid;
+    private int eventid;
     @XmlAttribute(name = "heatid")
-    public int heatid;
+    private int heatid;
     @XmlAttribute(name = "lane")
-    public int lane;
+    private int lane;
     @XmlAttribute(name = "points")
-    public int points;
+    private int points;
     @XmlJavaTypeAdapter(ReactionTimeAdapter.class)
     @XmlAttribute(name = "reactiontime")
-    public ReactionTime reactionTime;
+    private ReactionTime reactionTime;
     @XmlElement(name = "RELAYPOSITION")
     @XmlElementWrapper(name = "RELAYPOSITIONS")
-    public List<RelayPosition> relayPositions;
+    private List<RelayPosition> relayPositions;
     @XmlAttribute(name = "resultid", required = true)
-    public int resultid;
+    private int resultid;
     @XmlAttribute(name = "status")
-    public StatusResult status;
+    private StatusResult status;
     @XmlElement(name = "SPLIT")
     @XmlElementWrapper(name = "SPLITS")
-    public List<Split> splits;
+    private List<Split> splits;
     @XmlJavaTypeAdapter(SwimTimeAdapter.class)
     @XmlAttribute(name = "swimtime")
-    public SwimTime swimTime;
+    private SwimTime swimTime;
 
     @XmlType
     @XmlEnum

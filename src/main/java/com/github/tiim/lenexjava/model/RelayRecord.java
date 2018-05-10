@@ -8,12 +8,12 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.NONE)
 public class RelayRecord {
     @XmlElement(name = "CLUB")
-    public Club club;
+    private Club club;
     @XmlAttribute(name = "name")
-    public String name;
+    private String name;
     @XmlElement(name = "RELAYPOSITION")
     @XmlElementWrapper(name = "RELAYPOSITIONS")
-    public List<RelayPosition> relayPositions;
+    private List<RelayPosition> relayPositions;
 
     public Club getClub() {
         return club;

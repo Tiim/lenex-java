@@ -7,25 +7,25 @@ import javax.xml.bind.annotation.*;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Official {
     @XmlElement(name = "CONTACT")
-    public Contact contact;
+    private Contact contact;
     @XmlAttribute(name = "firstname", required = true)
-    public String firstname;
+    private String firstname;
     @XmlAttribute(name = "gender")
-    public Gender gender;
+    private Gender gender;
     @XmlAttribute(name = "grade")
-    public String grade;
+    private String grade;
     @XmlAttribute(name = "lastname", required = true)
-    public String lastname;
+    private String lastname;
     @XmlAttribute(name = "license")
-    public String license;
+    private String license;
     @XmlAttribute(name = "nameprefix")
-    public String nameprefix;
+    private String nameprefix;
     @XmlAttribute(name = "nation")
-    public Nation nation;
+    private Nation nation;
     @XmlAttribute(name = "officialid", required = true)
-    public int officialid;
+    private int officialid;
     @XmlAttribute(name = "passport")
-    public String passport;
+    private String passport;
 
     public Contact getContact() {
         return contact;

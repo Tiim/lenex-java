@@ -6,13 +6,13 @@ import javax.xml.bind.annotation.*;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Handicap {
     @XmlAttribute(name = "breast", required = true)
-    public HandicapClass breast;
+    private HandicapClass breast;
     @XmlAttribute(name = "exception")
-    public String exception;
+    private String exception;
     @XmlAttribute(name = "free", required = true)
-    public HandicapClass free;
+    private HandicapClass free;
     @XmlAttribute(name = "medley", required = true)
-    public HandicapClass medley;
+    private HandicapClass medley;
 
     @XmlType
     @XmlEnum

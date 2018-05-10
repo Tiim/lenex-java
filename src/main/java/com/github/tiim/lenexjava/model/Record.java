@@ -11,23 +11,23 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Record {
     @XmlElement(name = "ATHLETE")
-    public Athlete athlete;
+    private Athlete athlete;
     @XmlAttribute(name = "comment")
-    public String comment;
+    private String comment;
     @XmlElement(name = "MEETINFO")
-    public MeetInfoRecord meetInfo;
+    private MeetInfoRecord meetInfo;
     @XmlElement(name = "RELAY")
-    public RelayRecord relay;
+    private RelayRecord relay;
     @XmlElement(name = "SPLIT")
     @XmlElementWrapper(name = "SPLITS")
-    public List<Split> splits;
+    private List<Split> splits;
     @XmlElement(name = "SWIMSTYLE", required = true)
-    public SwimStyle swimStyle;
+    private SwimStyle swimStyle;
     @XmlJavaTypeAdapter(SwimTimeAdapter.class)
     @XmlAttribute(name = "swimtime", required = true)
-    public SwimTime swimtime;
+    private SwimTime swimtime;
     @XmlAttribute(name = "status")
-    public String status;
+    private String status;
 
     public Athlete getAthlete() {
         return athlete;

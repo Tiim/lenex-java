@@ -3,10 +3,10 @@ package com.github.tiim.lenexjava.model;
 import java.time.Duration;
 
 public class SwimTime {
-    public final int hour;
-    public final int minute;
-    public final int second;
-    public final int hsec;
+    private final int hour;
+    private final int minute;
+    private final int second;
+    private final int hsec;
 
     public SwimTime(int hour, int minute, int second, int hsec) {
         this.hour = hour;
@@ -17,14 +17,14 @@ public class SwimTime {
 
     @Override
     public String toString() {
-        return String.format("%02d:%02d:%02d.%02d", hour, minute, second, hsec);
+        return String.format("%02d:%02d:%02d.%02d", getHour(), getMinute(), getSecond(), getHsec());
     }
 
     public Duration asDuration() {
-        long milis = hour * 60L * 60L * 1000L;
-        milis += minute * 60L * 1000L;
-        milis += second * 1000L;
-        milis += hsec * 10L;
+        long milis = getHour() * 60L * 60L * 1000L;
+        milis += getMinute() * 60L * 1000L;
+        milis += getSecond() * 1000L;
+        milis += getHsec() * 10L;
         return Duration.ofMillis(milis);
     }
 

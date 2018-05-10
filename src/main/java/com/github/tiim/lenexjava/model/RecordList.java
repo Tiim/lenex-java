@@ -12,32 +12,29 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.NONE)
 public class RecordList {
     @XmlElement(name = "AGEGROUP")
-    public AgeGroup ageGroup;
+    private AgeGroup ageGroup;
     @XmlAttribute(name = "course", required = true)
-    public Course course;
+    private Course course;
     @XmlAttribute(name = "gender", required = true)
-    public Gender gender;
-    /**
-     * Only 1-15, 20, 34,49 allowed.
-     */
+    private Gender gender;
     @XmlAttribute(name = "handicap")
-    public int handicap;
+    private int handicap;
     @XmlAttribute(name = "name", required = true)
-    public String name;
+    private String name;
     @XmlAttribute(name = "nation")
-    public String nation;
+    private String nation;
     @XmlAttribute(name = "order")
-    public int order;
+    private int order;
     @XmlElement(name = "RECORD")
     @XmlElementWrapper(name = "RECORDS", required = true)
-    public List<Record> records;
+    private List<Record> records;
     @XmlAttribute(name = "region")
-    public String region;
+    private String region;
     @XmlJavaTypeAdapter(LocalDateAdapter.class)
     @XmlAttribute(name = "updated")
-    public LocalDate updated;
+    private LocalDate updated;
     @XmlAttribute(name = "type")
-    public String type;
+    private String type;
 
     public AgeGroup getAgeGroup() {
         return ageGroup;
@@ -63,6 +60,9 @@ public class RecordList {
         this.gender = gender;
     }
 
+    /**
+     * Only 1-15, 20, 34,49 allowed.
+     */
     public int getHandicap() {
         return handicap;
     }

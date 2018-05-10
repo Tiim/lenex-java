@@ -13,28 +13,28 @@ import java.time.LocalTime;
 @XmlAccessorType(XmlAccessType.NONE)
 public class MeetInfoEntry {
     @XmlAttribute(name = "approved")
-    public String approved;
+    private String approved;
     @XmlAttribute(name = "city", required = true)
-    public String city;
+    private String city;
     @XmlAttribute(name = "course")
-    public Course course;
+    private Course course;
     @XmlJavaTypeAdapter(LocalDateAdapter.class)
     @XmlAttribute(name = "date", required = true)
-    public LocalDate date;
+    private LocalDate date;
     @XmlJavaTypeAdapter(LocalTimeAdapter.class)
     @XmlAttribute(name = "daytime")
-    public LocalTime daytime;
+    private LocalTime daytime;
     @XmlAttribute(name = "name")
-    public String name;
+    private String name;
     @XmlAttribute(name = "nation", required = true)
-    public String nation;
+    private String nation;
     @XmlElement(name = "POOL")
-    public Pool pool;
+    private Pool pool;
     @XmlJavaTypeAdapter(SwimTimeAdapter.class)
     @XmlAttribute(name = "qualificationtime")
-    public SwimTime qualificationtime;
+    private SwimTime qualificationtime;
     @XmlAttribute(name = "state")
-    public String state;
+    private String state;
 
     public String getApproved() {
         return approved;

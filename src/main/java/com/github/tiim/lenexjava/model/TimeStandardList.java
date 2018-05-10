@@ -8,25 +8,22 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.NONE)
 public class TimeStandardList {
     @XmlElement(name = "AGEGROUP")
-    public AgeGroup ageGroup;
+    private AgeGroup ageGroup;
     @XmlAttribute(name = "course", required = true)
-    public Course course;
+    private Course course;
     @XmlAttribute(name = "gender", required = true)
-    public Gender gender;
-    /**
-     * Only 1-15,20,34,49 allowed.
-     */
+    private Gender gender;
     @XmlAttribute(name = "handicap")
-    public int handicap;
+    private int handicap;
     @XmlAttribute(name = "name", required = true)
-    public String name;
+    private String name;
     @XmlAttribute(name = "timestandardlistid", required = true)
-    public int timeStandardListId;
+    private int timeStandardListId;
     @XmlElement(name = "TIMESTANDARD")
     @XmlElementWrapper(name = "TIMESTANDARDS", required = true)
-    public List<TimeStandard> timeStandards;
+    private List<TimeStandard> timeStandards;
     @XmlAttribute(name = "type")
-    public TypeTimeStandardList type;
+    private TypeTimeStandardList type;
 
     @XmlType
     @XmlEnum
@@ -60,6 +57,9 @@ public class TimeStandardList {
         this.gender = gender;
     }
 
+    /**
+     * Only 1-15,20,34,49 allowed.
+     */
     public int getHandicap() {
         return handicap;
     }

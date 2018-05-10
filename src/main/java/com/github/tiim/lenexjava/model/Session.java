@@ -14,46 +14,46 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Session implements Comparable<Session> {
     @XmlAttribute(name = "course")
-    public Course course;
+    private Course course;
     @XmlJavaTypeAdapter(LocalDateAdapter.class)
     @XmlAttribute(name = "date", required = true)
-    public LocalDate date;
+    private LocalDate date;
     @XmlJavaTypeAdapter(LocalTimeAdapter.class)
     @XmlAttribute(name = "daytime")
-    public LocalTime daytime;
+    private LocalTime daytime;
     @XmlElementWrapper(name = "EVENTS", required = true)
     @XmlElement(name = "EVENT", required = true)
-    public List<Event> events;
+    private List<Event> events;
     @XmlElement(name = "FEE")
     @XmlElementWrapper(name = "FEES")
-    public List<Fee> fees;
+    private List<Fee> fees;
     @XmlElement(name = "JUDGE")
     @XmlElementWrapper(name = "JUDGES")
-    public List<Judge> judges;
+    private List<Judge> judges;
     @XmlAttribute(name = "name")
-    public String name;
+    private String name;
     @XmlAttribute(name = "number", required = true)
-    public int number;
+    private int number;
     @XmlJavaTypeAdapter(LocalTimeAdapter.class)
     @XmlAttribute(name = "officialmeeting")
-    public LocalTime officialmeeting;
+    private LocalTime officialmeeting;
     @XmlElement(name = "POOL")
-    public Pool pool;
+    private Pool pool;
     @XmlJavaTypeAdapter(LocalTimeAdapter.class)
     @XmlAttribute(name = "teamleadermeeting")
-    public LocalTime teamleadermeeting;
+    private LocalTime teamleadermeeting;
     @XmlJavaTypeAdapter(LocalTimeAdapter.class)
     @XmlAttribute(name = "warmupfrom")
-    public LocalTime warmupfrom;
+    private LocalTime warmupfrom;
     @XmlJavaTypeAdapter(LocalTimeAdapter.class)
     @XmlAttribute(name = "warmupuntil")
-    public LocalTime warmupuntil;
+    private LocalTime warmupuntil;
 
     @Override
     public int compareTo(Session o) {
-        int comp = date.compareTo(o.date) * 10_000;
-        if (daytime != null && o.daytime != null) {
-            comp += daytime.compareTo(o.daytime);
+        int comp = getDate().compareTo(o.getDate()) * 10_000;
+        if (getDaytime() != null && o.getDaytime() != null) {
+            comp += getDaytime().compareTo(o.getDaytime());
         }
         return comp;
     }

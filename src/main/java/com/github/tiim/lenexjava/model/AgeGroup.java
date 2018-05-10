@@ -9,31 +9,31 @@ import java.util.List;
 public class AgeGroup {
 
     @XmlAttribute(name = "agegroupid", required = true)
-    public int agegroup;
+    private int agegroup;
     @XmlAttribute(name = "agemax", required = true)
-    public int agemax;
+    private int agemax;
     @XmlAttribute(name = "agemin", required = true)
-    public int agemin;
+    private int agemin;
     @XmlAttribute(name = "gender")
-    public Gender gender;
+    private Gender gender;
     @XmlAttribute(name = "calculate")
-    public Calculate calculate;
+    private Calculate calculate;
     /**
      * Only 1-15, 20,34,49 allowed
      */
     @XmlAttribute(name = "handicap")
-    public int handicap;
+    private int handicap;
     @XmlAttribute(name = "levelmax")
-    public String levelmax;
+    private String levelmax;
     @XmlAttribute(name = "levelmin")
-    public String levelmin;
+    private String levelmin;
     @XmlAttribute(name = "levels")
-    public String levels;
+    private String levels;
     @XmlAttribute(name = "mame")
-    public String name;
+    private String name;
     @XmlElement(name = "RANKING")
     @XmlElementWrapper(name = "RANKINGS")
-    public List<Ranking> rankings;
+    private List<Ranking> rankings;
 
     @XmlType
     @XmlEnum

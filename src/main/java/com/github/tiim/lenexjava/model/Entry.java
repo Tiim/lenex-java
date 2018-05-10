@@ -11,25 +11,25 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.NONE)
 public class Entry {
     @XmlAttribute(name = "agegroupid")
-    public int agegroupid;
+    private int agegroupid;
     @XmlAttribute(name = "entrycourse")
-    public Course entrycourse;
+    private Course entrycourse;
     @XmlJavaTypeAdapter(SwimTimeAdapter.class)
     @XmlAttribute(name = "entrytime")
-    public SwimTime entrytime;
+    private SwimTime entrytime;
     @XmlAttribute(name = "eventid", required = true)
-    public int eventid;
+    private int eventid;
     @XmlAttribute(name = "heatid")
-    public int heatid;
+    private int heatid;
     @XmlAttribute(name = "lane")
-    public int lane;
+    private int lane;
     @XmlElement(name = "MEETINFO")
-    public MeetInfoEntry meetinfo;
+    private MeetInfoEntry meetinfo;
     @XmlElement(name = "RELAYPOSITION")
     @XmlElementWrapper(name = "RELAYPOSITIONS")
-    public List<RelayPosition> relayPositions;
+    private List<RelayPosition> relayPositions;
     @XmlAttribute(name = "status")
-    public StatusEntry status;
+    private StatusEntry status;
 
     @XmlType
     @XmlEnum
