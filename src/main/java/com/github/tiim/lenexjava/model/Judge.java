@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlEnum;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement(name = "JUDFE")
+@XmlRootElement(name = "JUDGE")
 public class Judge {
 
     @XmlAttribute(name = "number")
