@@ -1,6 +1,7 @@
 package com.github.tiim.lenexjava.model;
 
 import javax.xml.bind.annotation.*;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "CLUB")
@@ -49,6 +50,9 @@ public class Club {
     }
 
     public List<Athlete> getAthletes() {
+        if (athletes == null) {
+            return Collections.emptyList();
+        }
         return athletes;
     }
 
@@ -105,6 +109,9 @@ public class Club {
     }
 
     public List<Official> getOfficials() {
+        if (officials == null) {
+            return Collections.emptyList();
+        }
         return officials;
     }
 
@@ -121,6 +128,9 @@ public class Club {
     }
 
     public List<RelayMeet> getRelays() {
+        if (relays == null) {
+            return Collections.emptyList();
+        }
         return relays;
     }
 

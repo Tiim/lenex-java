@@ -5,6 +5,7 @@ import com.github.tiim.lenexjava.adapder.LocalTimeAdapter;
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalTime;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "EVENT")
@@ -76,6 +77,9 @@ public class Event implements Comparable<Event> {
     }
 
     public List<AgeGroup> getAgeGroups() {
+        if (ageGroups == null) {
+            return Collections.emptyList();
+        }
         return ageGroups;
     }
 
@@ -116,6 +120,9 @@ public class Event implements Comparable<Event> {
     }
 
     public List<Heat> getHeats() {
+        if (heats == null) {
+            return Collections.emptyList();
+        }
         return heats;
     }
 
@@ -180,6 +187,9 @@ public class Event implements Comparable<Event> {
     }
 
     public List<TimeStandardRef> getTimeStandardRefs() {
+        if (timeStandardRefs == null) {
+            return Collections.emptyList();
+        }
         return timeStandardRefs;
     }
 

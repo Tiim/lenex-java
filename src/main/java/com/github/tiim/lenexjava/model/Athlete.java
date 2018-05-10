@@ -5,6 +5,7 @@ import com.github.tiim.lenexjava.adapder.LocalDateAdapter;
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalDate;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "ATHLETE")
@@ -73,6 +74,9 @@ public class Athlete {
     }
 
     public List<Entry> getEntries() {
+        if (entries == null) {
+            return Collections.emptyList();
+        }
         return entries;
     }
 
@@ -169,6 +173,9 @@ public class Athlete {
     }
 
     public List<Result> getResults() {
+        if (results == null) {
+            return Collections.emptyList();
+        }
         return results;
     }
 

@@ -1,6 +1,7 @@
 package com.github.tiim.lenexjava.model;
 
 import javax.xml.bind.annotation.*;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "LENEX")
@@ -34,6 +35,9 @@ public class Lenex {
     }
 
     public List<Meet> getMeets() {
+        if (meets == null) {
+            return Collections.emptyList();
+        }
         return meets;
     }
 
@@ -42,6 +46,9 @@ public class Lenex {
     }
 
     public List<RecordList> getRecordLists() {
+        if (recordLists == null) {
+            return Collections.emptyList();
+        }
         return recordLists;
     }
 
@@ -50,6 +57,9 @@ public class Lenex {
     }
 
     public List<TimeStandardList> getTimeStandardLists() {
+        if (timeStandardLists == null) {
+            return Collections.emptyList();
+        }
         return timeStandardLists;
     }
 

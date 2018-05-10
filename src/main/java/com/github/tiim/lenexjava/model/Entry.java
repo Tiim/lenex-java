@@ -4,6 +4,7 @@ import com.github.tiim.lenexjava.adapder.SwimTimeAdapter;
 
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "ENTRY")
@@ -96,6 +97,9 @@ public class Entry {
     }
 
     public List<RelayPosition> getRelayPositions() {
+        if (relayPositions == null) {
+            return Collections.emptyList();
+        }
         return relayPositions;
     }
 

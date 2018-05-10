@@ -5,6 +5,7 @@ import com.github.tiim.lenexjava.adapder.LocalDateAdapter;
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalDate;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "RECORDLIST")
@@ -95,6 +96,9 @@ public class RecordList {
     }
 
     public List<Record> getRecords() {
+        if (records == null) {
+            return Collections.emptyList();
+        }
         return records;
     }
 

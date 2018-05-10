@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "SESSION")
@@ -82,6 +83,9 @@ public class Session implements Comparable<Session> {
     }
 
     public List<Event> getEvents() {
+        if (events == null) {
+            return Collections.emptyList();
+        }
         return events;
     }
 
@@ -90,6 +94,9 @@ public class Session implements Comparable<Session> {
     }
 
     public List<Fee> getFees() {
+        if (fees == null) {
+            return Collections.emptyList();
+        }
         return fees;
     }
 
@@ -98,6 +105,9 @@ public class Session implements Comparable<Session> {
     }
 
     public List<Judge> getJudges() {
+        if (judges == null) {
+            return Collections.emptyList();
+        }
         return judges;
     }
 

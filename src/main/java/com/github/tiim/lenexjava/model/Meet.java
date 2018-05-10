@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "MEET")
@@ -123,6 +124,9 @@ public class Meet {
     }
 
     public List<Club> getClubs() {
+        if (clubs == null) {
+            return Collections.emptyList();
+        }
         return clubs;
     }
 
@@ -179,6 +183,9 @@ public class Meet {
     }
 
     public List<Fee> getFees() {
+        if (fees == null) {
+            return Collections.emptyList();
+        }
         return fees;
     }
 
@@ -291,6 +298,9 @@ public class Meet {
     }
 
     public List<Session> getSessions() {
+        if (sessions == null) {
+            return Collections.emptyList();
+        }
         return sessions;
     }
 

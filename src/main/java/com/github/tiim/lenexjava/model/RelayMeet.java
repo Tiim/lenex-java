@@ -1,6 +1,7 @@
 package com.github.tiim.lenexjava.model;
 
 import javax.xml.bind.annotation.*;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "RELAY")
@@ -65,6 +66,9 @@ public class RelayMeet {
     }
 
     public List<Entry> getEntries() {
+        if (entries == null) {
+            return Collections.emptyList();
+        }
         return entries;
     }
 
@@ -105,6 +109,9 @@ public class RelayMeet {
     }
 
     public List<Result> getResults() {
+        if (results == null) {
+            return Collections.emptyList();
+        }
         return results;
     }
 

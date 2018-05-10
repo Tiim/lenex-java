@@ -4,6 +4,7 @@ import com.github.tiim.lenexjava.adapder.SwimTimeAdapter;
 
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.util.Collections;
 import java.util.List;
 
 @XmlRootElement(name = "RECORD")
@@ -61,6 +62,9 @@ public class Record {
     }
 
     public List<Split> getSplits() {
+        if (splits == null) {
+            return Collections.emptyList();
+        }
         return splits;
     }
 

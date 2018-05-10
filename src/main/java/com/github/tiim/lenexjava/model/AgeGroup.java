@@ -123,6 +123,9 @@ public class AgeGroup {
     }
 
     public List<Ranking> getRankings() {
+        if (rankings == null) {
+            return Collections.emptyList();
+        }
         return rankings;
     }
 
