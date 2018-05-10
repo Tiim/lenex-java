@@ -2,14 +2,12 @@ package com.github.tiim.lenexjava.model;
 
 import com.github.tiim.lenexjava.adapder.LocalDateAdapter;
 
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalDate;
 
 @XmlRootElement(name = "QUALIFY")
+@XmlAccessorType(XmlAccessType.NONE)
 public class Qualify {
     @XmlAttribute(name = "conversion")
     public Conversion conversion;
@@ -26,5 +24,37 @@ public class Qualify {
     @XmlEnum
     public enum Conversion {
         NONE, FINA_POINTS, PERCENT_LINEAR, NON_CONFORMING_LAST
+    }
+
+    public Conversion getConversion() {
+        return conversion;
+    }
+
+    public void setConversion(Conversion conversion) {
+        this.conversion = conversion;
+    }
+
+    public LocalDate getFrom() {
+        return from;
+    }
+
+    public void setFrom(LocalDate from) {
+        this.from = from;
+    }
+
+    public int getPercent() {
+        return percent;
+    }
+
+    public void setPercent(int percent) {
+        this.percent = percent;
+    }
+
+    public LocalDate getUntil() {
+        return until;
+    }
+
+    public void setUntil(LocalDate until) {
+        this.until = until;
     }
 }

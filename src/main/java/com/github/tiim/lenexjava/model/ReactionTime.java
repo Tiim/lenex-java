@@ -16,4 +16,6 @@ public class ReactionTime {
     public int getTime() {
         return time;
     }
+
+
 }

@@ -3,6 +3,7 @@ package com.github.tiim.lenexjava.model;
 import javax.xml.bind.annotation.*;
 
 @XmlRootElement(name = "HANDICAP")
+@XmlAccessorType(XmlAccessType.NONE)
 public class Handicap {
     @XmlAttribute(name = "breast", required = true)
     public HandicapClass breast;
@@ -33,5 +34,37 @@ public class Handicap {
         @XmlEnumValue("15")C15,
         @XmlEnumValue("GER.AB")GER_AB,
         @XmlEnumValue("GER.GB")GER_GB
+    }
+
+    public HandicapClass getBreast() {
+        return breast;
+    }
+
+    public void setBreast(HandicapClass breast) {
+        this.breast = breast;
+    }
+
+    public String getException() {
+        return exception;
+    }
+
+    public void setException(String exception) {
+        this.exception = exception;
+    }
+
+    public HandicapClass getFree() {
+        return free;
+    }
+
+    public void setFree(HandicapClass free) {
+        this.free = free;
+    }
+
+    public HandicapClass getMedley() {
+        return medley;
+    }
+
+    public void setMedley(HandicapClass medley) {
+        this.medley = medley;
     }
 }

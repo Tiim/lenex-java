@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.util.List;
 
 @XmlRootElement(name = "ENTRY")
+@XmlAccessorType(XmlAccessType.NONE)
 public class Entry {
     @XmlAttribute(name = "agegroupid")
     public int agegroupid;
@@ -36,5 +37,77 @@ public class Entry {
         RJC,
         SICK,
         WDR
+    }
+
+    public int getAgegroupid() {
+        return agegroupid;
+    }
+
+    public void setAgegroupid(int agegroupid) {
+        this.agegroupid = agegroupid;
+    }
+
+    public Course getEntrycourse() {
+        return entrycourse;
+    }
+
+    public void setEntrycourse(Course entrycourse) {
+        this.entrycourse = entrycourse;
+    }
+
+    public SwimTime getEntrytime() {
+        return entrytime;
+    }
+
+    public void setEntrytime(SwimTime entrytime) {
+        this.entrytime = entrytime;
+    }
+
+    public int getEventid() {
+        return eventid;
+    }
+
+    public void setEventid(int eventid) {
+        this.eventid = eventid;
+    }
+
+    public int getHeatid() {
+        return heatid;
+    }
+
+    public void setHeatid(int heatid) {
+        this.heatid = heatid;
+    }
+
+    public int getLane() {
+        return lane;
+    }
+
+    public void setLane(int lane) {
+        this.lane = lane;
+    }
+
+    public MeetInfoEntry getMeetinfo() {
+        return meetinfo;
+    }
+
+    public void setMeetinfo(MeetInfoEntry meetinfo) {
+        this.meetinfo = meetinfo;
+    }
+
+    public List<RelayPosition> getRelayPositions() {
+        return relayPositions;
+    }
+
+    public void setRelayPositions(List<RelayPosition> relayPositions) {
+        this.relayPositions = relayPositions;
+    }
+
+    public StatusEntry getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusEntry status) {
+        this.status = status;
     }
 }
