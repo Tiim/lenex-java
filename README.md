@@ -6,12 +6,23 @@ The format is commonly used in swimmeets and developed by [Swimrankings.net](htt
 The library is able to read an uncompressed .lef file or a compressed .lxf file and transform it into POJOs.
 
 ## Ussage
+
+### Read .lxf file
 ```java
-
-InputStream is = new FileInputStream(...);
-Lenex lenex = LenexParser.parse(exEntries, LenexType.LENEX_COMPRESSED);
+InputStream is = new FileInputStream(...);              // Open stream to lenex file
+Lenex lenex = LenexParser.parse(is, LenexType.LENEX_COMPRESSED);
+                                                        // Parse the stream to the lenex object
+                                                        // Use LenexType.LENEX_PLAIN if you are reading a .lef file
 ...
+```
 
+### Print all athletes and all data associated with them
+```java
+lenex.getMeets().stream()                               // stream all meets
+                .flatMap(m -> m.getClubs().stream())    // map the stream to a list of clubs
+                .flatMap(c -> c.getAthletes().stream()) // map the clubs to a list of athletes
+                .map(Object::toString)                  // convert athletes to string
+                .forEach(System.out::println);          // print each string
 ```
 
 ## Disclaimer
