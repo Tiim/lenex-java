@@ -18,15 +18,15 @@ public class InvitationData {
     }
 
     public List<Event> getEvents(Session s) {
-        List<Event> events = s.events.events;
+        List<Event> events = s.events;
         Collections.sort(events);
         return events;
     }
 
     public List<Session> getSessions() {
         List<Session> sessions = new ArrayList<>();
-        for (Meet m : l.meets.meets) {
-            sessions.addAll(m.sessions.sessions);
+        for (Meet m : l.meets) {
+            sessions.addAll(m.sessions);
         }
         Collections.sort(sessions);
         return sessions;

@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.List;
 
 @XmlRootElement(name = "MEET")
 public class Meet {
@@ -20,8 +21,9 @@ public class Meet {
     public String city;
     @XmlAttribute(name = "city.en")
     public String cityEn;
-    @XmlElement(name = "CLUBS")
-    public Clubs clubs;
+    @XmlElementWrapper(name = "CLUBS")
+    @XmlElement(name = "CLUB")
+    public List<Club> clubs;
     @XmlElement(name = "CONTACT")
     public Contact contact;
     @XmlAttribute(name = "course")
@@ -37,8 +39,9 @@ public class Meet {
     public LocalDate entryStartDate;
     @XmlAttribute(name = "entrytype")
     public EntryType entryType;
-    @XmlElement(name = "FEES")
-    public Fees fees;
+    @XmlElementWrapper(name = "FEES")
+    @XmlElement(name = "FEE")
+    public List<Fee> fees;
     @XmlAttribute(name = "hostclub")
     public String hostclub;
     @XmlAttribute(name = "hostclub.url")
@@ -65,8 +68,9 @@ public class Meet {
     public Qualify qualify;
     @XmlAttribute(name = "result.url")
     public String resultUrl;
-    @XmlElement(name = "SESSIONS", required = true)
-    public Sessions sessions;
+    @XmlElement(name = "SESSION")
+    @XmlElementWrapper(name = "SESSIONS", required = true)
+    public List<Session> sessions;
     @XmlAttribute(name = "state")
     public String state;
     @XmlAttribute(name = "swrid")

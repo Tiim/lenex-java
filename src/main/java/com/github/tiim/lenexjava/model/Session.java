@@ -5,10 +5,12 @@ import com.github.tiim.lenexjava.adapder.LocalTimeAdapter;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.List;
 
 @XmlRootElement(name = "SESSION")
 public class Session implements Comparable<Session> {
@@ -20,12 +22,15 @@ public class Session implements Comparable<Session> {
     @XmlJavaTypeAdapter(LocalTimeAdapter.class)
     @XmlAttribute(name = "daytime")
     public LocalTime daytime;
-    @XmlElement(name = "EVENTS", required = true)
-    public Events events;
-    @XmlElement(name = "FEES")
-    public Fees fees;
-    @XmlElement(name = "JUDGES")
-    public Judges judges;
+    @XmlElementWrapper(name = "EVENTS", required = true)
+    @XmlElement(name = "EVENT", required = true)
+    public List<Event> events;
+    @XmlElement(name = "FEE")
+    @XmlElementWrapper(name = "FEES")
+    public List<Fee> fees;
+    @XmlElement(name = "JUDGE")
+    @XmlElementWrapper(name = "JUDGES")
+    public List<Judge> judges;
     @XmlAttribute(name = "name")
     public String name;
     @XmlAttribute(name = "number", required = true)

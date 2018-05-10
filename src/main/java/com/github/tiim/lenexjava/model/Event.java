@@ -5,11 +5,15 @@ import com.github.tiim.lenexjava.adapder.LocalTimeAdapter;
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalTime;
+import java.util.List;
 
 @XmlRootElement(name = "EVENT")
 public class Event implements Comparable<Event> {
-    @XmlElement(name = "AGEGROUPS")
-    public AgeGroups ageGroups;
+
+    @XmlElement(name = "AGEGROUP")
+    @XmlElementWrapper(name = "AGEGROUPS")
+    public List<AgeGroup> ageGroups;
+
     @XmlJavaTypeAdapter(LocalTimeAdapter.class)
     @XmlAttribute(name = "daytime")
     public LocalTime daytime;
@@ -19,8 +23,9 @@ public class Event implements Comparable<Event> {
     public Fee fee;
     @XmlAttribute(name = "gender")
     public Gender gender;
-    @XmlElement(name = "HEATS")
-    public Heats heats;
+    @XmlElement(name = "HEAT")
+    @XmlElementWrapper(name = "HEATS")
+    public List<Heat> heats;
     @XmlAttribute(name = "maxentries")
     public int maxentries;
     @XmlAttribute(name = "number", required = true)
@@ -35,8 +40,9 @@ public class Event implements Comparable<Event> {
     public int run;
     @XmlElement(name = "SWIMSTYLE", required = true)
     public SwimStyle swimstyle;
-    @XmlElement(name = "TIMESTANDARDREFS")
-    public TimeStandardRefs timeStandardRefs;
+    @XmlElement(name = "TIMESTANDARDREF")
+    @XmlElementWrapper(name = "TIMESTANDARDREFS")
+    public List<TimeStandardRef> timeStandardRefs;
     @XmlAttribute(name = "timing")
     public Timing timing;
     @XmlAttribute(name = "type")

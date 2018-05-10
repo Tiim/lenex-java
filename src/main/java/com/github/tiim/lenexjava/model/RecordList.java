@@ -4,8 +4,10 @@ import com.github.tiim.lenexjava.adapder.LocalDateAdapter;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.time.LocalDate;
+import java.util.List;
 
 public class RecordList {
     @XmlElement(name = "AGEGROUP")
@@ -25,8 +27,9 @@ public class RecordList {
     public String nation;
     @XmlAttribute(name = "order")
     public int order;
-    @XmlElement(name = "RECORDS", required = true)
-    public Records records;
+    @XmlElement(name = "RECORD")
+    @XmlElementWrapper(name = "RECORDS", required = true)
+    public List<Record> records;
     @XmlAttribute(name = "region")
     public String region;
     @XmlJavaTypeAdapter(LocalDateAdapter.class)

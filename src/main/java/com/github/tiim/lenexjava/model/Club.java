@@ -1,11 +1,14 @@
 package com.github.tiim.lenexjava.model;
 
 import javax.xml.bind.annotation.*;
+import java.util.List;
 
 @XmlRootElement(name = "CLUB")
 public class Club {
-    @XmlElement(name = "ATHLETES")
-    public Athletes athletes;
+
+    @XmlElementWrapper(name = "ATHLETES")
+    @XmlElement(name = "ATHLETE")
+    public List<Athlete> athletes;
     @XmlAttribute(name = "code")
     public String code;
     @XmlElement(name = "CONTACT")
@@ -18,8 +21,9 @@ public class Club {
     public Nation nation;
     @XmlAttribute(name = "number")
     public int number;
-    @XmlElement(name = "OFFICIALS")
-    public Officials officials;
+    @XmlElement(name = "OFFICIAL")
+    @XmlElementWrapper(name = "OFFICIALS")
+    public List<Official> officials;
     @XmlAttribute(name = "region")
     public String region;
     @XmlElement(name = "RELAYS")

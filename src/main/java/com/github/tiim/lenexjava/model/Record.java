@@ -4,8 +4,10 @@ import com.github.tiim.lenexjava.adapder.SwimTimeAdapter;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.util.List;
 
 @XmlRootElement(name = "RECORD")
 public class Record {
@@ -17,8 +19,9 @@ public class Record {
     public MeetInfoRecord meetInfo;
     @XmlElement(name = "RELAY")
     public RelayRecord relay;
-    @XmlElement(name = "SPLITS")
-    public Splits splits;
+    @XmlElement(name = "SPLIT")
+    @XmlElementWrapper(name = "SPLITS")
+    public List<Split> splits;
     @XmlElement(name = "SWIMSTYLE", required = true)
     public SwimStyle swimStyle;
     @XmlJavaTypeAdapter(SwimTimeAdapter.class)

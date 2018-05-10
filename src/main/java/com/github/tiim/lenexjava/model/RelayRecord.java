@@ -2,7 +2,9 @@ package com.github.tiim.lenexjava.model;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.List;
 
 @XmlRootElement(name = "RELAY")
 public class RelayRecord {
@@ -10,6 +12,7 @@ public class RelayRecord {
     public Club club;
     @XmlAttribute(name = "name")
     public String name;
-    @XmlElement(name = "RELAYPOSITIONS")
-    public RelayPositions relayPositions;
+    @XmlElement(name = "RELAYPOSITION")
+    @XmlElementWrapper(name = "RELAYPOSITIONS")
+    public List<RelayPosition> relayPositions;
 }

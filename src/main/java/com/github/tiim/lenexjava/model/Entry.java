@@ -4,6 +4,7 @@ import com.github.tiim.lenexjava.adapder.SwimTimeAdapter;
 
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.util.List;
 
 @XmlRootElement(name = "ENTRY")
 public class Entry {
@@ -22,8 +23,9 @@ public class Entry {
     public int lane;
     @XmlElement(name = "MEETINFO")
     public MeetInfoEntry meetinfo;
-    @XmlElement(name = "RELAYPOSITIONS")
-    public RelayPositions relayPositions;
+    @XmlElement(name = "RELAYPOSITION")
+    @XmlElementWrapper(name = "RELAYPOSITIONS")
+    public List<RelayPosition> relayPositions;
     @XmlAttribute(name = "status")
     public StatusEntry status;
 

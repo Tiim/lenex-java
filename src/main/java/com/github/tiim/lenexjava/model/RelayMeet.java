@@ -2,7 +2,9 @@ package com.github.tiim.lenexjava.model;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.List;
 
 @XmlRootElement(name = "RELAY")
 public class RelayMeet {
@@ -14,8 +16,9 @@ public class RelayMeet {
     public int agetotalmax;
     @XmlAttribute(name = "agetotalmin", required = true)
     public int agetotalmin;
-    @XmlElement(name = "ENTRIES")
-    public Entries entries;
+    @XmlElement(name = "ENTRY")
+    @XmlElementWrapper(name = "ENTRIES")
+    public List<Entry> entries;
     @XmlAttribute(name = "gender", required = true)
     public Gender gender;
     /**
@@ -27,6 +30,7 @@ public class RelayMeet {
     public String name;
     @XmlAttribute(name = "number")
     public int number;
-    @XmlElement(name = "RESULTS")
-    public Results results;
+    @XmlElement(name = "RESULT")
+    @XmlElementWrapper(name = "RESULTS")
+    public List<Result> results;
 }

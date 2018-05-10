@@ -1,6 +1,7 @@
 package com.github.tiim.lenexjava.model;
 
 import javax.xml.bind.annotation.*;
+import java.util.List;
 
 @XmlRootElement(name = "TIMESTANDARDLIST")
 public class TimeStandardList {
@@ -19,8 +20,9 @@ public class TimeStandardList {
     public String name;
     @XmlAttribute(name = "timestandardlistid", required = true)
     public int timeStandardListId;
-    @XmlElement(name = "TIMESTANDARDS", required = true)
-    public TimeStandards timeStandards;
+    @XmlElement(name = "TIMESTANDARD")
+    @XmlElementWrapper(name = "TIMESTANDARDS", required = true)
+    public List<TimeStandard> timeStandards;
     @XmlAttribute(name = "type")
     public TypeTimeStandardList type;
 

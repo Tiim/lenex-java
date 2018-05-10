@@ -5,6 +5,7 @@ import com.github.tiim.lenexjava.adapder.SwimTimeAdapter;
 
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.util.List;
 
 @XmlRootElement(name = "RESULT")
 public class Result {
@@ -21,14 +22,16 @@ public class Result {
     @XmlJavaTypeAdapter(ReactionTimeAdapter.class)
     @XmlAttribute(name = "reactiontime")
     public ReactionTime reactionTime;
-    @XmlElement(name = "RELAYPOSITIONS")
-    public RelayPositions relayPositions;
+    @XmlElement(name = "RELAYPOSITION")
+    @XmlElementWrapper(name = "RELAYPOSITIONS")
+    public List<RelayPosition> relayPositions;
     @XmlAttribute(name = "resultid", required = true)
     public int resultid;
     @XmlAttribute(name = "status")
     public StatusResult status;
-    @XmlElement(name = "SPLITS")
-    public Splits splits;
+    @XmlElement(name = "SPLIT")
+    @XmlElementWrapper(name = "SPLITS")
+    public List<Split> splits;
     @XmlJavaTypeAdapter(SwimTimeAdapter.class)
     @XmlAttribute(name = "swimtime")
     public SwimTime swimTime;

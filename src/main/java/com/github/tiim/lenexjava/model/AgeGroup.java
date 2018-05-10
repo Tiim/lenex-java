@@ -1,6 +1,7 @@
 package com.github.tiim.lenexjava.model;
 
 import javax.xml.bind.annotation.*;
+import java.util.List;
 
 @XmlRootElement(name = "AGEGROUP")
 public class AgeGroup {
@@ -28,8 +29,9 @@ public class AgeGroup {
     public String levels;
     @XmlAttribute(name = "mame")
     public String name;
-    @XmlElement(name = "RANKINGS")
-    public Rankings rankings;
+    @XmlElement(name = "RANKING")
+    @XmlElementWrapper(name = "RANKINGS")
+    public List<Ranking> rankings;
 
     @XmlType
     @XmlEnum
