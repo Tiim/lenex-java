@@ -21,6 +21,10 @@ public class LenexParser {
     private static final PathMatcher LENEX_XML = FileSystems.getDefault().getPathMatcher("regex:.*\\.lef");
     private static final PathMatcher LENEX_ZIP = FileSystems.getDefault().getPathMatcher("regex:.*\\.lxf");
 
+    private LenexParser() {
+
+    }
+
     public static Lenex parse(InputStream is, LenexType type) throws IOException {
         try {
             if (type == LenexType.LENEX_COMPRESSED) {
